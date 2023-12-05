@@ -45,7 +45,7 @@ class TestTest4(unittest.TestCase):
                 self.set_up_drive()
                 self.driver.switch_to.frame(0)
                 time.sleep(10)
-                self.driver.find_element(By.CSS_SELECTOR, "html").click()
+                # self.driver.find_element(By.CSS_SELECTOR, "html").click()
                 element = self.driver.find_element(By.ID, "tinymce")
                 time.sleep(10)
                 self.driver.execute_script("if(arguments[0].contentEditable === 'true') {arguments[0].innerText = arguments[1]}", element, row[1])
@@ -64,57 +64,6 @@ class TestTest4(unittest.TestCase):
                 print(f"Test {count}: Pass")
                 time.sleep(10)
             count += 1
-    
-#   def test_test5(self):
-#     try:
-#       self.session = requests.Session()
-#       self.driver.get("https://school.moodledemo.net/mod/forum/post.php?reply=358#mformforum")
-#       file_path = os.getcwd()+"\Data\dienDanMin.txt" 
-
-#       self.driver.find_element(By.LINK_TEXT, "Log in").click()
-#       self.driver.find_element(By.ID, "username").send_keys("student") 
-#       self.driver.find_element(By.ID, "password").send_keys("moodle")
-#       self.driver.find_element(By.ID, "loginbtn").click()
-#       self.driver.implicitly_wait(15)
-
-#       self.driver.switch_to.frame(0)
-#       self.driver.find_element(By.CSS_SELECTOR, "html").click()
-#       element = self.driver.find_element(By.ID, "tinymce")
-#       self.driver.execute_script("if(arguments[0].contentEditable === 'true') {arguments[0].innerText = '<p>Kiểm tra việc upload picture cho giá trị biên dưới</p>'}", element)
-#       self.driver.implicitly_wait(15)
-#       self.driver.switch_to.default_content()
-#       self.driver.find_element(By.CSS_SELECTOR, ".dndupload-message .fa").click()
-#       self.driver.implicitly_wait(15)
-#       self.driver.execute_script("window.scrollTo(0,956)")
-#       self.driver.find_element(By.NAME, "repo_upload_file").send_keys(file_path)
-#       self.driver.find_element(By.XPATH, "//button[contains(.,\'Upload this file\')]").click()
-#       self.driver.implicitly_wait(15)
-#       self.driver.find_element(By.ID, "id_submitbutton").click()
-#       self.driver.implicitly_wait(60)
-#       # self.teardown_method()
-#       self.assertEqual(3,3)
-#       self.session.close()
-#     except Exception:
-#       pass
-
   
 if __name__ == "__main__":
   unittest.main(warnings='ignore')
-
-# import os 
-# file_path = os.getcwd()
-# file_path = file_path.replace("\Level1\DienDan\Boundary", "\DataTest\dienDanMin.txt")
-# print(file_path)
-  
-# print("D:\\SoftwareTesting\\Data\\dienDanMin.txt")
-
-# import csv
-
-# with open("./boundary.csv", 'r') as file:
-#   csvreader = csv.reader(file)
-#   count = 0
-#   for row in csvreader:
-#     if count != 0:
-#         print(row[1])
-#         print(row[2])
-#     count += 1

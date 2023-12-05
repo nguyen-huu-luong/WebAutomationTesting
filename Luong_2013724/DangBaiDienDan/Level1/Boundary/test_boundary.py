@@ -45,7 +45,7 @@ class TestTest4(unittest.TestCase):
                 self.set_up_drive()
                 self.driver.switch_to.frame(0)
                 time.sleep(10)
-                # self.driver.find_element(By.CSS_SELECTOR, "html").click()
+                self.driver.find_element(By.CSS_SELECTOR, "html").click()
                 element = self.driver.find_element(By.ID, "tinymce")
                 time.sleep(10)
                 self.driver.execute_script("if(arguments[0].contentEditable === 'true') {arguments[0].innerText = arguments[1]}", element, row[1])
@@ -64,6 +64,7 @@ class TestTest4(unittest.TestCase):
                 print(f"Test {count}: Pass")
                 time.sleep(10)
             count += 1
+
   
 if __name__ == "__main__":
   unittest.main(warnings='ignore')

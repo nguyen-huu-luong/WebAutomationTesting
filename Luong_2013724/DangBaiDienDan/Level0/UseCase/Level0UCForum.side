@@ -1,0 +1,1052 @@
+{
+  "id": "78d6c631-3f5b-4fe7-84c9-91f2baa338ff",
+  "version": "2.0",
+  "name": "Level0NonDataDrivenUC",
+  "url": "https://school.moodledemo.net/mod/forum/post.php?reply=358#mformforum",
+  "tests": [{
+    "id": "a6334ea8-1381-4c6d-9bd5-9a2dcea08c83",
+    "name": "Test5_UC",
+    "commands": [{
+      "id": "ea09dd15-5299-40fb-ab34-75281b9b528d",
+      "comment": "",
+      "command": "open",
+      "target": "https://school.moodledemo.net/mod/forum/post.php?reply=358#mformforum",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "616f1ac8-173e-41cb-a0ea-08dd7f3eddfb",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "be75240f-bbf6-4be4-846d-5cabaf3ca702",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "331f894b-0047-4338-b5c5-85c799d89b21",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2d8c741-f420-4dfa-a788-be06a39b46e9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tox-toolbar__group:nth-child(3) > .tox-tbtn:nth-child(1) svg",
+      "targets": [
+        ["css=.tox-toolbar__group:nth-child(3) > .tox-tbtn:nth-child(1) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4fc4cd4a-04da-4a25-b170-9bd164c0efce",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "775d707c-fe36-41de-8034-fa71f519388c",
+      "comment": "",
+      "command": "editContent",
+      "target": "id=tinymce",
+      "targets": [
+        ["id=tinymce", "id"],
+        ["css=#tinymce", "css:finder"],
+        ["xpath=//body[@id='tinymce']", "xpath:attributes"],
+        ["xpath=//body", "xpath:position"],
+        ["xpath=//body[contains(.,'Test P5')]", "xpath:innerText"]
+      ],
+      "value": "<p>Test P5</p>"
+    }, {
+      "id": "2c53d406-493d-46f2-90e2-45a567b7138e",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "f60ecb29-9442-4477-b6a4-567113c84a38",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Browse repositories...')]",
+      "targets": [
+        ["id=yui_3_18_1_1_1701696852727_403", "id"],
+        ["css=#yui_3_18_1_1_1701696852727_403", "css:finder"],
+        ["xpath=//button[@id='yui_3_18_1_1_1701696852727_403']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701696852727_404']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Browse repositories...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "063affef-13ce-4a0c-9be2-4cae5f930d40",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.openimagebrowser",
+      "targets": [
+        ["css=.openimagebrowser", "css:finder"],
+        ["xpath=(//button[@type='button'])[48]", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701696852727_390']/div/div[2]/form/div[2]/div/span/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Browse repositories...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "226b8957-22f6-40f8-bfda-cf25abdf0fd7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "xpath=//button[contains(.,'Browse repositories...')]",
+      "targets": [
+        ["id=yui_3_18_1_1_1701696852727_403", "id"],
+        ["css=#yui_3_18_1_1_1701696852727_403", "css:finder"],
+        ["xpath=//button[@id='yui_3_18_1_1_1701696852727_403']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701696852727_404']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Browse repositories...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8f72298-e4bb-4e3a-8d7e-e7c152e227e4",
+      "comment": "",
+      "command": "click",
+      "target": "name=repo_upload_file",
+      "targets": [
+        ["id=yui_3_18_1_1_1701696852727_815", "id"],
+        ["name=repo_upload_file", "name"],
+        ["css=#yui_3_18_1_1_1701696852727_815", "css:finder"],
+        ["xpath=//input[@id='yui_3_18_1_1_1701696852727_815']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701696852727_853']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "800c4118-da96-4a2f-8603-6adee50d2b74",
+      "comment": "",
+      "command": "type",
+      "target": "name=repo_upload_file",
+      "targets": [
+        ["id=yui_3_18_1_1_1701696852727_815", "id"],
+        ["name=repo_upload_file", "name"],
+        ["css=#yui_3_18_1_1_1701696852727_815", "css:finder"],
+        ["xpath=//input[@id='yui_3_18_1_1_1701696852727_815']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701696852727_853']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "D:\\SoftwareTesting\\Data\\avatar.png"
+    }, {
+      "id": "e8fce67e-4d8d-4c98-898b-d3b1aab0badd",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Upload this file')]",
+      "targets": [
+        ["id=yui_3_18_1_1_1701696852727_864", "id"],
+        ["css=#yui_3_18_1_1_1701696852727_864", "css:finder"],
+        ["xpath=//button[@id='yui_3_18_1_1_1701696852727_864']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701696852727_865']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Upload this file')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "181cdce1-5560-4c7b-9351-67ed9da38fd8",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_message_tiny_image_altentry",
+      "targets": [
+        ["id=id_message_tiny_image_altentry", "id"],
+        ["name=altentry", "name"],
+        ["css=#id_message_tiny_image_altentry", "css:finder"],
+        ["xpath=//textarea[@id='id_message_tiny_image_altentry']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701696852727_890']/textarea", "xpath:idRelative"],
+        ["xpath=//div[4]/textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff882f06-a0b9-48b3-a7b9-e66975bee1a4",
+      "comment": "",
+      "command": "type",
+      "target": "id=id_message_tiny_image_altentry",
+      "targets": [
+        ["id=id_message_tiny_image_altentry", "id"],
+        ["name=altentry", "name"],
+        ["css=#id_message_tiny_image_altentry", "css:finder"],
+        ["xpath=//textarea[@id='id_message_tiny_image_altentry']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701696852727_890']/textarea", "xpath:idRelative"],
+        ["xpath=//div[4]/textarea", "xpath:position"]
+      ],
+      "value": "Demo"
+    }, {
+      "id": "7e116bfa-349a-4d5a-902a-8a318775edfd",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Save image')]",
+      "targets": [
+        ["id=yui_3_18_1_1_1701696852727_899", "id"],
+        ["css=#yui_3_18_1_1_1701696852727_899", "css:finder"],
+        ["xpath=//button[@id='yui_3_18_1_1_1701696852727_899']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701696852727_900']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save image')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a03da32-db49-4cdc-b87c-770d84c8a700",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "b598f827-f911-4a20-9d2f-93f1549cf7bb",
+      "comment": "",
+      "command": "editContent",
+      "target": "id=tinymce",
+      "targets": [
+        ["id=tinymce", "id"],
+        ["css=#tinymce", "css:finder"],
+        ["xpath=//body[@id='tinymce']", "xpath:attributes"],
+        ["xpath=//body", "xpath:position"],
+        ["xpath=//body[contains(.,'Test P5')]", "xpath:innerText"]
+      ],
+      "value": "<p>Test P5<img class=\"img-fluid align-top\" src=\"https://school.moodledemo.net/draftfile.php/411/user/draft/724130925/avatar.png\" alt=\"Demo\" width=\"257\" height=\"257\" data-mce-src=\"https://school.moodledemo.net/draftfile.php/411/user/draft/724130925/avatar.png\"></p>"
+    }, {
+      "id": "0e70ebe4-f976-4212-b7af-48a450f909e1",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "90e54d6b-4857-476f-b046-c5c3ac6fbd5a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dndupload-message .fa",
+      "targets": [
+        ["css=.dndupload-message .fa", "css:finder"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701696852727_131']/div/div[2]/div/div/i", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fceffd1-d9a9-470c-8242-883b39c108ab",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1b576d59-9ebc-4ee2-92fc-7d595c0708d8",
+      "comment": "",
+      "command": "type",
+      "target": "name=repo_upload_file",
+      "targets": [
+        ["id=yui_3_18_1_1_1701696852727_1310", "id"],
+        ["name=repo_upload_file", "name"],
+        ["css=#yui_3_18_1_1_1701696852727_1310", "css:finder"],
+        ["xpath=//input[@id='yui_3_18_1_1_1701696852727_1310']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701696852727_1338']/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "D:\\SoftwareTesting\\Data\\dienDanEx.txt"
+    }, {
+      "id": "3d413f33-0c31-4b9a-94dd-d8268746bcc7",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Upload this file')]",
+      "targets": [
+        ["id=yui_3_18_1_1_1701696852727_1356", "id"],
+        ["css=#yui_3_18_1_1_1701696852727_1356", "css:finder"],
+        ["xpath=//button[@id='yui_3_18_1_1_1701696852727_1356']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701696852727_1357']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Upload this file')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1723cb34-6d0f-4053-a732-4f8c57f04a7d",
+      "comment": "",
+      "command": "pause",
+      "target": "6000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca10221f-812d-48aa-80de-51bc52d45bad",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[3]/div/div/span/button",
+      "targets": [
+        ["id=yui_3_18_1_1_1701696852727_1479", "id"],
+        ["css=#yui_3_18_1_1_1701696852727_1479", "css:finder"],
+        ["xpath=//button[@id='yui_3_18_1_1_1701696852727_1479']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701696852727_1457']/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/span/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fcac17f-46aa-473f-9c67-5318fc0529b4",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[3]/div/div/span/button",
+      "targets": [
+        ["id=yui_3_18_1_1_1701696852727_1298", "id"],
+        ["css=#yui_3_18_1_1_1701696852727_1298", "css:finder"],
+        ["xpath=//button[@id='yui_3_18_1_1_1701696852727_1298']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701696852727_1017']/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/span/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d517f49a-25e1-4647-9bb5-f9f3cdec9123",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div/div[2]/div/div/i",
+      "targets": [
+        ["id=yui_3_18_1_1_1701696852727_938", "id"],
+        ["css=#yui_3_18_1_1_1701696852727_938", "css:finder"],
+        ["xpath=//i[@id='yui_3_18_1_1_1701696852727_938']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701696852727_939']/i", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b71127b-0f58-4b11-b111-6a375a519311",
+      "comment": "",
+      "command": "pause",
+      "target": "6000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41f51916-4ad1-49a8-b90b-951b5b61361a",
+      "comment": "",
+      "command": "type",
+      "target": "name=repo_upload_file",
+      "targets": [
+        ["id=yui_3_18_1_1_1701696852727_1498", "id"],
+        ["name=repo_upload_file", "name"],
+        ["css=#yui_3_18_1_1_1701696852727_1498", "css:finder"],
+        ["xpath=//input[@id='yui_3_18_1_1_1701696852727_1498']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701696852727_1536']/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "D:\\SoftwareTesting\\Data\\dienDanMinAdd.txt"
+    }, {
+      "id": "905b11cf-23c0-4555-a121-0f176a1b20f5",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Upload this file')]",
+      "targets": [
+        ["id=yui_3_18_1_1_1701696852727_1549", "id"],
+        ["css=#yui_3_18_1_1_1701696852727_1549", "css:finder"],
+        ["xpath=//button[@id='yui_3_18_1_1_1701696852727_1549']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701696852727_1550']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Upload this file')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c821aeee-44ce-4192-bc2e-46e849204344",
+      "comment": "",
+      "command": "pause",
+      "target": "10000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f1b5572-e96f-4ee0-bfad-ad59c97c3a35",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_submitbutton",
+      "targets": [
+        ["id=id_submitbutton", "id"],
+        ["name=submitbutton", "name"],
+        ["css=#id_submitbutton", "css:finder"],
+        ["xpath=//input[@id='id_submitbutton']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701696852727_1766']/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c847cab9-b7f8-47e5-9092-e72552007e1c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2632)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "2949a9bd-000f-4651-80bf-479e937876e7",
+    "name": "Test6_UC",
+    "commands": [{
+      "id": "675229ca-f03b-412e-b31a-36369b49001f",
+      "comment": "",
+      "command": "open",
+      "target": "https://school.moodledemo.net/mod/forum/post.php?reply=358#mformforum",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "407762e2-0566-4fbb-8b2e-9a3e800fc056",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d5ebef1c-2a90-43d1-b3ee-9e7e71043c6d",
+      "comment": "",
+      "command": "click",
+      "target": "id=fitem_id_subject",
+      "targets": [
+        ["id=fitem_id_subject", "id"],
+        ["css=#fitem_id_subject", "css:finder"],
+        ["xpath=//div[@id='fitem_id_subject']", "xpath:attributes"],
+        ["xpath=//div[@id='id_generalcontainer']/div", "xpath:idRelative"],
+        ["xpath=//fieldset/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d6fbc74-c83a-4664-bbd2-706e8d09db4c",
+      "comment": "",
+      "command": "type",
+      "target": "id=id_subject",
+      "targets": [
+        ["id=id_subject", "id"],
+        ["name=subject", "name"],
+        ["css=#id_subject", "css:finder"],
+        ["xpath=//input[@id='id_subject']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701697438454_398']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8d722a3-70ef-476f-8902-220dabf661f9",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "da24b25b-d6b0-4df3-9e52-e9f8f3d7547d",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "256a5a4e-59aa-4dde-adbc-9f4645bbde3a",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "67dcdd97-462c-493a-ac69-ad86fdd44914",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tox-toolbar__group:nth-child(3) > .tox-tbtn:nth-child(1) path",
+      "targets": [
+        ["css=.tox-toolbar__group:nth-child(3) > .tox-tbtn:nth-child(1) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "26eaa12f-4f54-4258-a226-7a4bfd49b3cb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.tox-toolbar__group:nth-child(3) > .tox-tbtn:nth-child(1) path",
+      "targets": [
+        ["css=.tox-toolbar__group:nth-child(3) > .tox-tbtn:nth-child(1) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "939e1ed0-fa50-44b8-a822-c976c8d8f013",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.tox-toolbar__group:nth-child(3) > .tox-tbtn:nth-child(1) path",
+      "targets": [
+        ["css=.tox-toolbar__group:nth-child(3) > .tox-tbtn:nth-child(1) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "beb177b3-a29f-4304-9b66-306536496683",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Browse repositories...')]",
+      "targets": [
+        ["id=yui_3_18_1_1_1701697438454_419", "id"],
+        ["css=#yui_3_18_1_1_1701697438454_419", "css:finder"],
+        ["xpath=//button[@id='yui_3_18_1_1_1701697438454_419']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701697438454_420']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Browse repositories...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c7b8ee2-c68b-4baf-9a03-9904589f4b4f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.openimagebrowser",
+      "targets": [
+        ["css=.openimagebrowser", "css:finder"],
+        ["xpath=(//button[@type='button'])[48]", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701697438454_407']/div/div[2]/form/div[2]/div/span/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Browse repositories...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac3a9d0f-a9da-4596-b053-67e3ee4e5b24",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "xpath=//button[contains(.,'Browse repositories...')]",
+      "targets": [
+        ["id=yui_3_18_1_1_1701697438454_419", "id"],
+        ["css=#yui_3_18_1_1_1701697438454_419", "css:finder"],
+        ["xpath=//button[@id='yui_3_18_1_1_1701697438454_419']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701697438454_420']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Browse repositories...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fd32a07-eb39-4d0c-a834-7dc64b96e4dd",
+      "comment": "",
+      "command": "type",
+      "target": "name=repo_upload_file",
+      "targets": [
+        ["id=yui_3_18_1_1_1701697438454_832", "id"],
+        ["name=repo_upload_file", "name"],
+        ["css=#yui_3_18_1_1_1701697438454_832", "css:finder"],
+        ["xpath=//input[@id='yui_3_18_1_1_1701697438454_832']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701697438454_868']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "D:\\SoftwareTesting\\Data\\avatar.png"
+    }, {
+      "id": "3f749d05-1709-4cf9-82c0-f7e4120a1bef",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Upload this file')]",
+      "targets": [
+        ["id=yui_3_18_1_1_1701697438454_880", "id"],
+        ["css=#yui_3_18_1_1_1701697438454_880", "css:finder"],
+        ["xpath=//button[@id='yui_3_18_1_1_1701697438454_880']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701697438454_881']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Upload this file')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c853f67-bc51-4af5-b0f1-4b728ff6a7c5",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3217184f-92d1-4499-bcc8-d2356a698f1f",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_message_tiny_image_altentry",
+      "targets": [
+        ["id=id_message_tiny_image_altentry", "id"],
+        ["name=altentry", "name"],
+        ["css=#id_message_tiny_image_altentry", "css:finder"],
+        ["xpath=//textarea[@id='id_message_tiny_image_altentry']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701697438454_913']/textarea", "xpath:idRelative"],
+        ["xpath=//div[4]/textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3010c867-7f4c-4df0-b626-471edb8d3403",
+      "comment": "",
+      "command": "type",
+      "target": "id=id_message_tiny_image_altentry",
+      "targets": [
+        ["id=id_message_tiny_image_altentry", "id"],
+        ["name=altentry", "name"],
+        ["css=#id_message_tiny_image_altentry", "css:finder"],
+        ["xpath=//textarea[@id='id_message_tiny_image_altentry']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701697438454_913']/textarea", "xpath:idRelative"],
+        ["xpath=//div[4]/textarea", "xpath:position"]
+      ],
+      "value": "Demo"
+    }, {
+      "id": "575b25a9-65c8-4b47-959f-47dbf4ea689a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Save image')]",
+      "targets": [
+        ["id=yui_3_18_1_1_1701697438454_900", "id"],
+        ["css=#yui_3_18_1_1_1701697438454_900", "css:finder"],
+        ["xpath=//button[@id='yui_3_18_1_1_1701697438454_900']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701697438454_901']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save image')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "56bfe423-9984-4f59-b610-69da335b3319",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a021cac-4f79-4d1b-a254-8c07c9f111ab",
+      "comment": "",
+      "command": "editContent",
+      "target": "id=tinymce",
+      "targets": [
+        ["id=tinymce", "id"],
+        ["css=#tinymce", "css:finder"],
+        ["xpath=//body[@id='tinymce']", "xpath:attributes"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": "<p><img class=\"img-fluid align-top\" src=\"https://school.moodledemo.net/draftfile.php/411/user/draft/384547092/avatar.png\" alt=\"Demo\" width=\"257\" height=\"257\" data-mce-src=\"https://school.moodledemo.net/draftfile.php/411/user/draft/384547092/avatar.png\"></p>"
+    }, {
+      "id": "456cba28-5250-4d25-bf1b-855e270027b9",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "620b0fdf-5f19-42cd-87d5-28af3a49811c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dndupload-message .fa",
+      "targets": [
+        ["css=.dndupload-message .fa", "css:finder"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701697438454_131']/div/div[2]/div/div/i", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4dabfe7f-0399-4afa-a1d7-58125af09cda",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1056)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1680b52f-2cf2-4c5f-8823-241345f36276",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a3a8299-8370-4c8c-b164-c6182a904ea2",
+      "comment": "",
+      "command": "type",
+      "target": "name=repo_upload_file",
+      "targets": [
+        ["id=yui_3_18_1_1_1701697438454_1319", "id"],
+        ["name=repo_upload_file", "name"],
+        ["css=#yui_3_18_1_1_1701697438454_1319", "css:finder"],
+        ["xpath=//input[@id='yui_3_18_1_1_1701697438454_1319']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701697438454_1347']/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "D:\\SoftwareTesting\\Data\\dienDanMinAdd.txt"
+    }, {
+      "id": "a064c2d0-3484-497a-a633-9ca32f92c4e3",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Upload this file')]",
+      "targets": [
+        ["id=yui_3_18_1_1_1701697438454_1364", "id"],
+        ["css=#yui_3_18_1_1_1701697438454_1364", "css:finder"],
+        ["xpath=//button[@id='yui_3_18_1_1_1701697438454_1364']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701697438454_1365']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Upload this file')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "deba58f8-3a6b-4c23-abe0-d63ebbdcbe28",
+      "comment": "",
+      "command": "pause",
+      "target": "6000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "871c36ee-bd4a-4437-a792-8bfc66109802",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_submitbutton",
+      "targets": [
+        ["id=id_submitbutton", "id"],
+        ["name=submitbutton", "name"],
+        ["css=#id_submitbutton", "css:finder"],
+        ["xpath=//input[@id='id_submitbutton']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701697438454_1577']/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0ff9455f-2e7d-4a92-a5f0-2f50496f579a",
+    "name": "Test1_UC",
+    "commands": [{
+      "id": "8cec89a0-8147-45d6-90a0-e71f5e597833",
+      "comment": "",
+      "command": "open",
+      "target": "https://school.moodledemo.net/mod/forum/post.php?reply=358#mformforum",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fda4afe2-2898-451e-9ef0-d5597d580946",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c24081b7-4217-4db9-80fd-3642f8c2935a",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "08cc5e66-b768-4bc4-af7a-21c82a1de9de",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5031938-7751-40c3-8f37-a0c82a505b83",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "878d78c2-9322-46e1-829a-cb71286cef04",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tox-toolbar__group:nth-child(3) > .tox-tbtn:nth-child(1) svg",
+      "targets": [
+        ["css=.tox-toolbar__group:nth-child(3) > .tox-tbtn:nth-child(1) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "85a0cf75-2853-4e83-bc6b-f5e99ff703bc",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "871bbf05-89ee-40a9-8bf8-03b1fc736108",
+      "comment": "",
+      "command": "editContent",
+      "target": "id=tinymce",
+      "targets": [
+        ["id=tinymce", "id"],
+        ["css=#tinymce", "css:finder"],
+        ["xpath=//body[@id='tinymce']", "xpath:attributes"],
+        ["xpath=//body", "xpath:position"],
+        ["xpath=//body[contains(.,'Test P1')]", "xpath:innerText"]
+      ],
+      "value": "<p>Test P1</p>"
+    }, {
+      "id": "6bb4fe15-ecde-4d75-9a9c-60371af31048",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "acaf1b14-02b1-494a-bc4d-f3c3b7c02402",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Browse repositories...')]",
+      "targets": [
+        ["id=yui_3_18_1_1_1701698015681_403", "id"],
+        ["css=#yui_3_18_1_1_1701698015681_403", "css:finder"],
+        ["xpath=//button[@id='yui_3_18_1_1_1701698015681_403']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701698015681_404']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Browse repositories...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce75aed6-bfcf-4c49-a1f7-237771cdb1e6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.openimagebrowser",
+      "targets": [
+        ["css=.openimagebrowser", "css:finder"],
+        ["xpath=(//button[@type='button'])[48]", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701698015681_390']/div/div[2]/form/div[2]/div/span/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Browse repositories...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "182b1b30-5625-481a-9257-75acb5d3e4b2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "xpath=//button[contains(.,'Browse repositories...')]",
+      "targets": [
+        ["id=yui_3_18_1_1_1701698015681_403", "id"],
+        ["css=#yui_3_18_1_1_1701698015681_403", "css:finder"],
+        ["xpath=//button[@id='yui_3_18_1_1_1701698015681_403']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701698015681_404']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Browse repositories...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6608ba6-5fd2-4df3-b1f8-702614431c96",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "63590978-0494-402e-abc8-d902afd3fc63",
+      "comment": "",
+      "command": "type",
+      "target": "name=repo_upload_file",
+      "targets": [
+        ["id=yui_3_18_1_1_1701698015681_817", "id"],
+        ["name=repo_upload_file", "name"],
+        ["css=#yui_3_18_1_1_1701698015681_817", "css:finder"],
+        ["xpath=//input[@id='yui_3_18_1_1_1701698015681_817']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701698015681_851']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "D:\\SoftwareTesting\\Data\\avatar.png"
+    }, {
+      "id": "1d479410-1f7a-4889-a91c-be4801ef515f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Upload this file')]",
+      "targets": [
+        ["id=yui_3_18_1_1_1701698015681_867", "id"],
+        ["css=#yui_3_18_1_1_1701698015681_867", "css:finder"],
+        ["xpath=//button[@id='yui_3_18_1_1_1701698015681_867']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701698015681_868']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Upload this file')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eabf3276-52bf-48fc-8413-4b02d03ed7cc",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "233700fa-01fd-4ae7-8bf7-79e488a56ab7",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_message_tiny_image_altentry",
+      "targets": [
+        ["id=id_message_tiny_image_altentry", "id"],
+        ["name=altentry", "name"],
+        ["css=#id_message_tiny_image_altentry", "css:finder"],
+        ["xpath=//textarea[@id='id_message_tiny_image_altentry']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701698015681_891']/textarea", "xpath:idRelative"],
+        ["xpath=//div[4]/textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14511fdf-0a05-41ec-a691-f329a867abe5",
+      "comment": "",
+      "command": "type",
+      "target": "id=id_message_tiny_image_altentry",
+      "targets": [
+        ["id=id_message_tiny_image_altentry", "id"],
+        ["name=altentry", "name"],
+        ["css=#id_message_tiny_image_altentry", "css:finder"],
+        ["xpath=//textarea[@id='id_message_tiny_image_altentry']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701698015681_891']/textarea", "xpath:idRelative"],
+        ["xpath=//div[4]/textarea", "xpath:position"]
+      ],
+      "value": "Demo"
+    }, {
+      "id": "a9f64003-f5f4-444e-b66d-8bcd4169e829",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Save image')]",
+      "targets": [
+        ["id=yui_3_18_1_1_1701698015681_901", "id"],
+        ["css=#yui_3_18_1_1_1701698015681_901", "css:finder"],
+        ["xpath=//button[@id='yui_3_18_1_1_1701698015681_901']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701698015681_902']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save image')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8565366a-475c-4bbf-9e85-20c581b4c888",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "1581c401-b9a7-4d9d-819b-97363237df98",
+      "comment": "",
+      "command": "editContent",
+      "target": "id=tinymce",
+      "targets": [
+        ["id=tinymce", "id"],
+        ["css=#tinymce", "css:finder"],
+        ["xpath=//body[@id='tinymce']", "xpath:attributes"],
+        ["xpath=//body", "xpath:position"],
+        ["xpath=//body[contains(.,'Test P1')]", "xpath:innerText"]
+      ],
+      "value": "<p>Test P1<img class=\"img-fluid align-top\" src=\"https://school.moodledemo.net/draftfile.php/411/user/draft/55480782/avatar.png\" alt=\"Demo\" width=\"257\" height=\"257\" data-mce-src=\"https://school.moodledemo.net/draftfile.php/411/user/draft/55480782/avatar.png\"></p>"
+    }, {
+      "id": "02cc9840-4dd8-4c40-a979-e8b305b92a76",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "82aa988c-0231-45e0-b6b6-1861445fb1e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dndupload-message .fa",
+      "targets": [
+        ["css=.dndupload-message .fa", "css:finder"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701698015681_131']/div/div[2]/div/div/i", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90141fb0-326e-4d81-8543-0751f40be973",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,964.7999877929688)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51cc0965-b5b0-46bf-950c-f98472a920f7",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "634fd622-4b78-4d9f-adfe-8568d0b710ac",
+      "comment": "",
+      "command": "type",
+      "target": "name=repo_upload_file",
+      "targets": [
+        ["id=yui_3_18_1_1_1701698015681_1308", "id"],
+        ["name=repo_upload_file", "name"],
+        ["css=#yui_3_18_1_1_1701698015681_1308", "css:finder"],
+        ["xpath=//input[@id='yui_3_18_1_1_1701698015681_1308']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701698015681_1341']/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "D:\\SoftwareTesting\\Data\\dienDanMinAdd.txt"
+    }, {
+      "id": "0fd48490-a522-43a2-b2d4-0372cf3068c1",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Upload this file')]",
+      "targets": [
+        ["id=yui_3_18_1_1_1701698015681_1356", "id"],
+        ["css=#yui_3_18_1_1_1701698015681_1356", "css:finder"],
+        ["xpath=//button[@id='yui_3_18_1_1_1701698015681_1356']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701698015681_1357']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Upload this file')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "87442fde-6597-4c27-8e51-0a3c5f600880",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14dd449f-a14a-4841-9c67-bab8cc42b506",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_submitbutton",
+      "targets": [
+        ["id=id_submitbutton", "id"],
+        ["name=submitbutton", "name"],
+        ["css=#id_submitbutton", "css:finder"],
+        ["xpath=//input[@id='id_submitbutton']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701698015681_1571']/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46b0a823-b0de-4ffa-94a8-ad5d9b592536",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,5024.7998046875)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b7df8bab-b3df-4264-9f8f-4ca1626ee0ef",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://school.moodledemo.net/mod/forum/post.php?reply=358#mformforum"],
+  "plugins": []
+}

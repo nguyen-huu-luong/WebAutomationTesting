@@ -5,7 +5,7 @@
 ```
 pip install -r requirements.txt
 ```
-## Cấu trúc soruce code
+## Cấu trúc source code
 * Folder ChamDiem: Chứa code chức năng Chấm điểm
     * Level0: Chứa các file được sinh ra bởi selenium IDE
     * Level1: Chứa code và file.csv - data file của chức năng chấm điểm ở level1

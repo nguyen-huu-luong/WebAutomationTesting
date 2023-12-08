@@ -1,0 +1,6 @@
+Name,Text,Data
+Test 1,Kiem tra viec upload picture cho gia tri bien duoi,dienDanMin.txt
+Test 2,Kiem tra viec upload picture cho gia tri can bien duoi,dienDanMinAdd.txt
+Test 3,Kiem tra viec upload pricture cho bien tren,dienDanMax.txt
+Test 4,Kiem tra viec upload pricture cho can bien tren,dienDanMaxSub.txt
+Test 5,Kiem tra viec upload picture cho gia tri binh thuong,dienDanNormal.txt

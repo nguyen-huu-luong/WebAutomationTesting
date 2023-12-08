@@ -1,0 +1,5 @@
+Name,Grade,URL,LinkText1,LinkText2,LinkText3,LinkText4,Xpath1,Xpath2,Id1,Id2,Id3,Id4,Username,Password
+Test 1,-1,https://school.moodledemo.net/mod/assign/view.php?id=775,Log in,Assignment: Languages of Love,View all submissions,Grade,//section/div[2]/div[3],"//button[contains(.,'Save changes')]",username,password,loginbtn,id_grade,teacher,moodle
+Test 2,24,https://school.moodledemo.net/mod/assign/view.php?id=775,Log in,Assignment: Languages of Love,View all submissions,Grade,//section/div[2]/div[3],"//button[contains(.,'Save changes')]",username,password,loginbtn,id_grade,teacher,moodle
+Test 3,75,https://school.moodledemo.net/mod/assign/view.php?id=775,Log in,Assignment: Languages of Love,View all submissions,Grade,//section/div[2]/div[3],"//button[contains(.,'Save changes')]",username,password,loginbtn,id_grade,teacher,moodle
+Test 4,110,https://school.moodledemo.net/mod/assign/view.php?id=775,Log in,Assignment: Languages of Love,View all submissions,Grade,//section/div[2]/div[3],"//button[contains(.,'Save changes')]",username,password,loginbtn,id_grade,teacher,moodle

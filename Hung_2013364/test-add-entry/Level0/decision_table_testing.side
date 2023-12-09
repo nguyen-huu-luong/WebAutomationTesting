@@ -234,7 +234,7 @@
         ["xpath=//div[@id='yui_3_18_1_1_1701837318082_831']/input", "xpath:idRelative"],
         ["xpath=//form/div/div/div/input", "xpath:position"]
       ],
-      "value": "E:\\\\\\\\SoftwareTesting/WebAutomationTesting\\\\\\\\Hung_2013364\\\\\\\\test-add-entry\\\\\\\\files\\\\\\\\invalid.txt"
+      "value": "E:\\\\\\\\SoftwareTesting/WebAutomationTesting\\\\\\\\Hung_2013364\\\\\\\\files\\\\\\\\invalid.txt"
     }, {
       "id": "b9f039f4-c951-44a0-a846-d511aad3e72b",
       "comment": "",

@@ -9,9 +9,3 @@ def create_file(file_name, size, folder):
         f.seek(size - 1)
         f.write(b'0')
 
-# def create_multiple_files(num_files, file_size, folder):
-#     for i in range(1, num_files + 1):
-#         file_name = f"{i}.txt"
-#         create_file(file_name, file_size, folder)
-
-

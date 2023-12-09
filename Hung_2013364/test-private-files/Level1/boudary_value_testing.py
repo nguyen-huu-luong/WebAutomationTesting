@@ -2,18 +2,13 @@
 import os
 import time
 import unittest
-
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from selenium.webdriver.support import expected_conditions as EC
 from file_generator import create_file
 
-class TestAddEntry(unittest.TestCase):
+class TestUploadFiles(unittest.TestCase):
   def setup(self):
     self.current_dir = os.path.dirname(os.path.abspath(__file__))
     options = webdriver.ChromeOptions()

@@ -21,7 +21,7 @@ class TestAddEntry(unittest.TestCase):
     self.driver = webdriver.Chrome(options=options)
     self.vars = {}   
     self.driver.maximize_window()
-    self.driver.get("https://school.moodledemo.net/enrol/index.php?id=57")
+    self.driver.get("https://school.moodledemo.net/login/index.php")
     self.driver.find_element(By.ID, "username").send_keys("student") 
     self.driver.find_element(By.ID, "password").send_keys("moodle")
     self.driver.find_element(By.ID, "loginbtn").click()

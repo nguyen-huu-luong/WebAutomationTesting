@@ -1,0 +1,7 @@
+testcase_name,file_name,file_size_mb
+Testcase 1,no_file_upload,0
+Testcase 2,file_2mb,2
+Testcase 3,file_11mb,11
+Testcase 4,,0
+Testcase 5,,2
+Testcase 6,,11

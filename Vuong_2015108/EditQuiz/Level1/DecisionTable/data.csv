@@ -1,0 +1,6 @@
+name,enable_open_day,day,month,year,hours,minutes,enable_clsoe_day,day,month,year,hours,minutes
+Testcase 1,True,11,11,2023,10,30,True,19,11,2023,10,30
+Testcase 2,True,19,11,2023,10,30,True,11,11,2023,10,30
+Testcase 3,True,11,11,2023,10,30,False,19,11,2023,10,30
+Testcase 4,False,11,11,2023,10,30,True,19,11,2023,10,30
+Testcase 5,False,11,11,2023,10,30,False,19,11,2023,10,30

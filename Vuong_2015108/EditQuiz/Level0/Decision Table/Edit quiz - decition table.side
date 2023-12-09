@@ -1,0 +1,2265 @@
+{
+  "id": "88708fd7-980d-4465-ac2d-25870764525e",
+  "version": "2.0",
+  "name": "Edit quiz - decition table",
+  "url": "https://school.moodledemo.net/",
+  "tests": [{
+    "id": "46011598-8c24-45c8-9034-3f69a61fb9a7",
+    "name": "testcase0 - login",
+    "commands": [{
+      "id": "c7404954-c0b1-40e0-89df-8ad61a7bebd3",
+      "comment": "",
+      "command": "open",
+      "target": "https://school.moodledemo.net/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f0c27af-f2b4-4c44-a921-55a384ff4260",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "42187768-71de-409c-97c8-1cc3b8b9ceab",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log in",
+      "targets": [
+        ["linkText=Log in", "linkText"],
+        ["css=.login > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Log in')]", "xpath:link"],
+        ["xpath=//div[@id='usernavigation']/div[5]/div/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://school.moodledemo.net/login/index.php')]", "xpath:href"],
+        ["xpath=//span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b183b70a-caff-47a2-a5f2-c8bc606787b3",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "moodle"
+    }, {
+      "id": "24ae2441-693f-402c-ba16-51fff563eca5",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7bd8b3c2-31b2-4864-8431-044d466a80b1",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3e687c5-893a-44a7-b68b-f876bfb70a5f",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginbtn",
+      "targets": [
+        ["id=loginbtn", "id"],
+        ["css=#loginbtn", "css:finder"],
+        ["xpath=//button[@id='loginbtn']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b3de5e56-63a0-45b8-a7aa-b9c3225555df",
+    "name": "testcase1",
+    "commands": [{
+      "id": "7f0c8d63-bc60-46fa-8be2-5dae48844456",
+      "comment": "",
+      "command": "open",
+      "target": "https://school.moodledemo.net/my/courses.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c2668c4-629c-485a-becb-4949983b94a5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "652414da-f3f0-428d-9846-38b194d5d7f4",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[3]",
+      "targets": [
+        ["css=#course-info-container-69-4 .multiline", "css:finder"],
+        ["xpath=//div[@id='course-info-container-69-4']/div/div/a/span[3]", "xpath:idRelative"],
+        ["xpath=//span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af3d3774-d30c-4689-aa31-79f94162b3f1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modtype_quiz .aalink",
+      "targets": [
+        ["css=.modtype_quiz .aalink", "css:finder"],
+        ["xpath=(//a[@onclick=''])[15]", "xpath:attributes"],
+        ["xpath=//li[@id='module-978']/div/div[2]/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://school.moodledemo.net/mod/quiz/view.php?id=978')])[3]", "xpath:href"],
+        ["xpath=//li[4]/div[2]/ul/li/div/div[2]/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16cb560f-5415-43a3-9d5b-87cb499128a3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fbe35de1-baed-4a1c-8c1b-d3784e1a838a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Settings",
+      "targets": [
+        ["id=yui_3_18_1_1_1701679388915_219", "id"],
+        ["linkText=Settings", "linkText"],
+        ["css=#yui_3_18_1_1_1701679388915_219", "css:finder"],
+        ["xpath=//a[contains(text(),'Settings')]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_18_1_1_1701679388915_219']", "xpath:attributes"],
+        ["xpath=//li[@id='yui_3_18_1_1_1701679388915_220']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://school.moodledemo.net/course/modedit.php?update=978&return=1')]", "xpath:href"],
+        ["xpath=//div[2]/nav/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Settings')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2be17c9d-0db3-4f1e-b622-413e084e852e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Quiz",
+      "targets": [
+        ["linkText=Quiz", "linkText"],
+        ["css=#moremenu-656d912256954-nav-tabs > .nav-item:nth-child(1) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Quiz')]", "xpath:link"],
+        ["xpath=//ul[@id='moremenu-656d912256954-nav-tabs']/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://school.moodledemo.net/mod/quiz/view.php?id=978')])[3]", "xpath:href"],
+        ["xpath=//div[2]/nav/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Quiz')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "12555fb6-062b-4e5c-9ba3-8c73366acdcc",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Quiz",
+      "targets": [
+        ["linkText=Quiz", "linkText"],
+        ["css=#moremenu-656d912256954-nav-tabs > .nav-item:nth-child(1) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Quiz')]", "xpath:link"],
+        ["xpath=//ul[@id='moremenu-656d912256954-nav-tabs']/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://school.moodledemo.net/mod/quiz/view.php?id=978')])[3]", "xpath:href"],
+        ["xpath=//div[2]/nav/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Quiz')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "962a09e0-4bcb-4735-ba65-20c29b759813",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Questions",
+      "targets": [
+        ["linkText=Questions", "linkText"],
+        ["css=#moremenu-656d912256954-nav-tabs > .nav-item:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Questions')]", "xpath:link"],
+        ["xpath=//ul[@id='moremenu-656d912256954-nav-tabs']/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://school.moodledemo.net/mod/quiz/edit.php?cmid=978')]", "xpath:href"],
+        ["xpath=//div[2]/nav/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Questions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e9b95d6-e330-4ab7-9732-6185a280d9eb",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,422.3999938964844)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e616c07c-7a6a-4e72-8145-986214670f64",
+      "comment": "",
+      "command": "click",
+      "target": "id=collapseElement-1",
+      "targets": [
+        ["id=collapseElement-1", "id"],
+        ["linkText=Timing", "linkText"],
+        ["css=#collapseElement-1", "css:finder"],
+        ["xpath=//a[@id='collapseElement-1']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701679395302_1174']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#id_timingcontainer')]", "xpath:href"],
+        ["xpath=//fieldset[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Timing')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "655400f1-d14a-44cf-b72e-1599a76ac0e0",
+      "comment": "",
+      "command": "check",
+      "target": "id=id_timeopen_enabled",
+      "targets": [
+        ["id=id_timeopen_enabled", "id"],
+        ["name=timeopen[enabled]", "name"],
+        ["css=#id_timeopen_enabled", "css:finder"],
+        ["xpath=//input[@id='id_timeopen_enabled']", "xpath:attributes"],
+        ["xpath=//label[@id='yui_3_18_1_1_1701679564675_1171']/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f90ba6e-548e-41eb-88b6-34dc82f38cde",
+      "comment": "",
+      "command": "verifyChecked",
+      "target": "id=id_timeopen_enabled",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d36f7a7-112b-4558-9f67-d16591fddbc7",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeopen_enabled",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "02d21be0-fbea-4113-9a7e-a554cd4cbf90",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeopen_enabled",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b411be4e-b034-475f-a5ea-973c0b93ed16",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeopen_day",
+      "targets": [
+        ["id=id_timeopen_day", "id"],
+        ["name=timeopen[day]", "name"],
+        ["css=#id_timeopen_day", "css:finder"],
+        ["xpath=//select[@id='id_timeopen_day']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701679395302_1184']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e74c563a-7ed8-493d-9d51-c7cd156c41db",
+      "comment": "",
+      "command": "select",
+      "target": "id=id_timeopen_day",
+      "targets": [],
+      "value": "label=12"
+    }, {
+      "id": "4945e28d-c65c-4094-990e-45c462641016",
+      "comment": "",
+      "command": "click",
+      "target": "css=#id_timeopen_day > option:nth-child(12)",
+      "targets": [
+        ["css=#id_timeopen_day > option:nth-child(12)", "css:finder"],
+        ["xpath=//option[@value='12']", "xpath:attributes"],
+        ["xpath=//select[@id='id_timeopen_day']/option[12]", "xpath:idRelative"],
+        ["xpath=//option[12]", "xpath:position"],
+        ["xpath=//option[contains(.,'12')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "04642147-e029-4661-a3ba-3a31f19ac55a",
+      "comment": "",
+      "command": "select",
+      "target": "id=id_timeopen_month",
+      "targets": [],
+      "value": "label=November"
+    }, {
+      "id": "747c22f1-acc4-4122-9930-5e962fba3ffd",
+      "comment": "",
+      "command": "click",
+      "target": "css=#id_timeopen_month > option:nth-child(11)",
+      "targets": [
+        ["css=#id_timeopen_month > option:nth-child(11)", "css:finder"],
+        ["xpath=(//option[@value='11'])[2]", "xpath:attributes"],
+        ["xpath=//select[@id='id_timeopen_month']/option[11]", "xpath:idRelative"],
+        ["xpath=//div[2]/span/select/option[11]", "xpath:position"],
+        ["xpath=//option[contains(.,'November')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f06f3324-b5e4-476c-bee9-6c68d651b2ab",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeopen_year",
+      "targets": [
+        ["id=id_timeopen_year", "id"],
+        ["name=timeopen[year]", "name"],
+        ["css=#id_timeopen_year", "css:finder"],
+        ["xpath=//select[@id='id_timeopen_year']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701679395302_1188']/select", "xpath:idRelative"],
+        ["xpath=//div[3]/span/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c599e55e-79c3-435e-9d97-57d53f30e995",
+      "comment": "",
+      "command": "click",
+      "target": "css=#id_timeopen_year > option:nth-child(124)",
+      "targets": [
+        ["css=#id_timeopen_year > option:nth-child(124)", "css:finder"],
+        ["xpath=//option[@value='2023']", "xpath:attributes"],
+        ["xpath=//select[@id='id_timeopen_year']/option[124]", "xpath:idRelative"],
+        ["xpath=//option[124]", "xpath:position"],
+        ["xpath=//option[contains(.,'2023')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "397b23bb-bc87-4354-b417-f250111eb3cc",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeopen_hour",
+      "targets": [
+        ["id=id_timeopen_hour", "id"],
+        ["name=timeopen[hour]", "name"],
+        ["css=#id_timeopen_hour", "css:finder"],
+        ["xpath=//select[@id='id_timeopen_hour']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701679395302_1190']/select", "xpath:idRelative"],
+        ["xpath=//div[4]/span/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3a5a0d8-2e3e-47cb-af20-03960f6827b7",
+      "comment": "",
+      "command": "click",
+      "target": "css=#id_timeopen_hour > option:nth-child(11)",
+      "targets": [
+        ["css=#id_timeopen_hour > option:nth-child(11)", "css:finder"],
+        ["xpath=(//option[@value='10'])[3]", "xpath:attributes"],
+        ["xpath=//select[@id='id_timeopen_hour']/option[11]", "xpath:idRelative"],
+        ["xpath=//div[4]/span/select/option[11]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce9bfbfa-1932-4264-a463-3071d8e3a047",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeopen_minute",
+      "targets": [
+        ["id=id_timeopen_minute", "id"],
+        ["name=timeopen[minute]", "name"],
+        ["css=#id_timeopen_minute", "css:finder"],
+        ["xpath=//select[@id='id_timeopen_minute']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701679395302_1192']/select", "xpath:idRelative"],
+        ["xpath=//div[5]/span/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73c5b36b-db0d-4da8-b4cd-125397751f3d",
+      "comment": "",
+      "command": "select",
+      "target": "id=id_timeopen_minute",
+      "targets": [],
+      "value": "label=30"
+    }, {
+      "id": "79903ca9-90cc-48aa-a894-71ada24db736",
+      "comment": "",
+      "command": "click",
+      "target": "css=#id_timeopen_minute > option:nth-child(31)",
+      "targets": [
+        ["css=#id_timeopen_minute > option:nth-child(31)", "css:finder"],
+        ["xpath=(//option[@value='30'])[2]", "xpath:attributes"],
+        ["xpath=//select[@id='id_timeopen_minute']/option[31]", "xpath:idRelative"],
+        ["xpath=//div[5]/span/select/option[31]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b7cf7c3-d0b7-4faf-913d-978804bd754c",
+      "comment": "",
+      "command": "check",
+      "target": "id=id_timeclose_enabled",
+      "targets": [
+        ["id=id_timeclose_enabled", "id"],
+        ["name=timeclose[enabled]", "name"],
+        ["css=#id_timeclose_enabled", "css:finder"],
+        ["xpath=//input[@id='id_timeclose_enabled']", "xpath:attributes"],
+        ["xpath=//label[@id='yui_3_18_1_1_1701679395302_1340']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/fieldset/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f56de81-9ed4-4b32-af5a-6879c407c5be",
+      "comment": "",
+      "command": "verifyChecked",
+      "target": "id=id_timeclose_enabled",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b2652a5d-c920-435b-b756-9d08437fed8e",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeclose_enabled",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59362b7b-b2ec-4562-9142-22677263b171",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeclose_enabled",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0514aa20-8d4e-4642-b1c9-e391fc04cc1e",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeclose_day",
+      "targets": [
+        ["id=id_timeclose_day", "id"],
+        ["name=timeclose[day]", "name"],
+        ["css=#id_timeclose_day", "css:finder"],
+        ["xpath=//select[@id='id_timeclose_day']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701679395302_1026']/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/fieldset/div/div/span/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00ac4da1-ad36-4953-976e-48d0913b57b5",
+      "comment": "",
+      "command": "select",
+      "target": "id=id_timeclose_day",
+      "targets": [],
+      "value": "label=19"
+    }, {
+      "id": "ee4d9b21-7bc8-4262-b324-45b082fbef8d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#id_timeclose_day > option:nth-child(19)",
+      "targets": [
+        ["css=#id_timeclose_day > option:nth-child(19)", "css:finder"],
+        ["xpath=(//option[@value='19'])[4]", "xpath:attributes"],
+        ["xpath=//select[@id='id_timeclose_day']/option[19]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/fieldset/div/div/span/select/option[19]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff70794a-7d6e-4e24-9882-d61d028f8585",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeclose_month",
+      "targets": [
+        ["id=id_timeclose_month", "id"],
+        ["name=timeclose[month]", "name"],
+        ["css=#id_timeclose_month", "css:finder"],
+        ["xpath=//select[@id='id_timeclose_month']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701679395302_1028']/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/fieldset/div/div[2]/span/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15d460e4-11c8-44bb-a4ac-767fb1a1af81",
+      "comment": "",
+      "command": "select",
+      "target": "id=id_timeclose_month",
+      "targets": [],
+      "value": "label=November"
+    }, {
+      "id": "9d9ee37b-d427-4574-8aa0-69f0cdbdb4f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=#id_timeclose_month > option:nth-child(11)",
+      "targets": [
+        ["css=#id_timeclose_month > option:nth-child(11)", "css:finder"],
+        ["xpath=(//option[@value='11'])[6]", "xpath:attributes"],
+        ["xpath=//select[@id='id_timeclose_month']/option[11]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/fieldset/div/div[2]/span/select/option[11]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e6ee303-94d1-49cd-812b-1b508d270275",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeclose_year",
+      "targets": [
+        ["id=id_timeclose_year", "id"],
+        ["name=timeclose[year]", "name"],
+        ["css=#id_timeclose_year", "css:finder"],
+        ["xpath=//select[@id='id_timeclose_year']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701679395302_1030']/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/fieldset/div/div[3]/span/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "474448c7-d994-40ee-9e33-8727a6a84e7e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#id_timeclose_year > option:nth-child(124)",
+      "targets": [
+        ["css=#id_timeclose_year > option:nth-child(124)", "css:finder"],
+        ["xpath=(//option[@value='2023'])[2]", "xpath:attributes"],
+        ["xpath=//select[@id='id_timeclose_year']/option[124]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/fieldset/div/div[3]/span/select/option[124]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a6d6020-564d-4e6b-8350-9dad68c160ea",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeclose_hour",
+      "targets": [
+        ["id=id_timeclose_hour", "id"],
+        ["name=timeclose[hour]", "name"],
+        ["css=#id_timeclose_hour", "css:finder"],
+        ["xpath=//select[@id='id_timeclose_hour']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701679395302_1032']/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/fieldset/div/div[4]/span/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "057e29d7-81a8-4b5a-81e5-8bb5228e32d3",
+      "comment": "",
+      "command": "select",
+      "target": "id=id_timeclose_hour",
+      "targets": [],
+      "value": "label=10"
+    }, {
+      "id": "7e44cb8e-7509-4d59-a45d-a64ac4484733",
+      "comment": "",
+      "command": "click",
+      "target": "css=#id_timeclose_hour > option:nth-child(11)",
+      "targets": [
+        ["css=#id_timeclose_hour > option:nth-child(11)", "css:finder"],
+        ["xpath=(//option[@value='10'])[7]", "xpath:attributes"],
+        ["xpath=//select[@id='id_timeclose_hour']/option[11]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/fieldset/div/div[4]/span/select/option[11]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b924743e-82cc-4869-9b09-5c48e070b952",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeclose_minute",
+      "targets": [
+        ["id=id_timeclose_minute", "id"],
+        ["name=timeclose[minute]", "name"],
+        ["css=#id_timeclose_minute", "css:finder"],
+        ["xpath=//select[@id='id_timeclose_minute']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701679395302_1034']/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/fieldset/div/div[5]/span/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "43231a7d-e73c-448a-bdc2-42dc1f5bc482",
+      "comment": "",
+      "command": "select",
+      "target": "id=id_timeclose_minute",
+      "targets": [],
+      "value": "label=30"
+    }, {
+      "id": "29bb16f1-36a8-4815-b2a3-a7e6146c26da",
+      "comment": "",
+      "command": "click",
+      "target": "css=#id_timeclose_minute > option:nth-child(31)",
+      "targets": [
+        ["css=#id_timeclose_minute > option:nth-child(31)", "css:finder"],
+        ["xpath=(//option[@value='30'])[4]", "xpath:attributes"],
+        ["xpath=//select[@id='id_timeclose_minute']/option[31]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/fieldset/div/div[5]/span/select/option[31]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a923579e-844d-4ec7-b320-a27d2c8b177b",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_submitbutton",
+      "targets": [
+        ["id=id_submitbutton", "id"],
+        ["name=submitbutton", "name"],
+        ["css=#id_submitbutton", "css:finder"],
+        ["xpath=//input[@id='id_submitbutton']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701679395302_1390']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "afa91cf4-044f-4121-b694-10f362acb4be",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "3c83c7f4-2ab4-490a-a41c-bdb392b15cb8",
+    "name": "testcase2",
+    "commands": [{
+      "id": "7f0dc2d4-4022-4d3a-8a9d-5b5a1574bb97",
+      "comment": "",
+      "command": "open",
+      "target": "https://school.moodledemo.net/my/courses.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c2171e6-b8f8-4078-9c33-77f38aa051fb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "88f58676-9223-4262-949a-6695ad865bb4",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[3]",
+      "targets": [
+        ["css=#course-info-container-69-4 .multiline", "css:finder"],
+        ["xpath=//div[@id='course-info-container-69-4']/div/div/a/span[3]", "xpath:idRelative"],
+        ["xpath=//span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3469c1f6-9b42-4b89-a018-9051cdaf800b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modtype_quiz .aalink",
+      "targets": [
+        ["css=.modtype_quiz .aalink", "css:finder"],
+        ["xpath=(//a[@onclick=''])[15]", "xpath:attributes"],
+        ["xpath=//li[@id='module-978']/div/div[2]/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://school.moodledemo.net/mod/quiz/view.php?id=978')])[3]", "xpath:href"],
+        ["xpath=//li[4]/div[2]/ul/li/div/div[2]/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f9d397b-0466-4044-8355-96c5075c1d46",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "699c021d-341a-4d0e-b553-0902eb696dd0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Settings",
+      "targets": [
+        ["id=yui_3_18_1_1_1701679693773_219", "id"],
+        ["linkText=Settings", "linkText"],
+        ["css=#yui_3_18_1_1_1701679693773_219", "css:finder"],
+        ["xpath=//a[contains(text(),'Settings')]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_18_1_1_1701679693773_219']", "xpath:attributes"],
+        ["xpath=//li[@id='yui_3_18_1_1_1701679693773_220']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://school.moodledemo.net/course/modedit.php?update=978&return=1')]", "xpath:href"],
+        ["xpath=//div[2]/nav/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Settings')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "46be6e95-2bdc-47a5-9a90-1d184e4c8306",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Questions",
+      "targets": [
+        ["linkText=Questions", "linkText"],
+        ["css=#moremenu-656d92bbb14e4-nav-tabs > .nav-item:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Questions')]", "xpath:link"],
+        ["xpath=//ul[@id='moremenu-656d92bbb14e4-nav-tabs']/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://school.moodledemo.net/mod/quiz/edit.php?cmid=978')]", "xpath:href"],
+        ["xpath=//div[2]/nav/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Questions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc5a5d32-5cae-4063-ba2b-f1491f8cd083",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dac769a2-4d52-4810-9322-4b70356b4f5c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Questions",
+      "targets": [
+        ["linkText=Questions", "linkText"],
+        ["css=#moremenu-656d92bbb14e4-nav-tabs > .nav-item:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Questions')]", "xpath:link"],
+        ["xpath=//ul[@id='moremenu-656d92bbb14e4-nav-tabs']/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://school.moodledemo.net/mod/quiz/edit.php?cmid=978')]", "xpath:href"],
+        ["xpath=//div[2]/nav/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Questions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c41cd65-bac2-4ac0-9378-c50de1df4c3d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,316.79998779296875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd84894b-6136-4423-8ce7-c849773a5277",
+      "comment": "",
+      "command": "click",
+      "target": "id=collapseElement-1",
+      "targets": [
+        ["id=collapseElement-1", "id"],
+        ["linkText=Timing", "linkText"],
+        ["css=#collapseElement-1", "css:finder"],
+        ["xpath=//a[@id='collapseElement-1']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701682556761_1165']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#id_timingcontainer')]", "xpath:href"],
+        ["xpath=//fieldset[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Timing')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "36997426-765b-42b5-97b9-3adffdafe13a",
+      "comment": "",
+      "command": "check",
+      "target": "id=id_timeopen_enabled",
+      "targets": [
+        ["id=id_timeopen_enabled", "id"],
+        ["name=timeopen[enabled]", "name"],
+        ["css=#id_timeopen_enabled", "css:finder"],
+        ["xpath=//input[@id='id_timeopen_enabled']", "xpath:attributes"],
+        ["xpath=//label[@id='yui_3_18_1_1_1701682365257_1198']/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d27a3fb-88e3-47e3-b17f-b3dd4fb366b4",
+      "comment": "",
+      "command": "verifyChecked",
+      "target": "id=id_timeopen_enabled",
+      "targets": [
+        ["id=id_timeopen_enabled", "id"],
+        ["name=timeopen[enabled]", "name"],
+        ["css=#id_timeopen_enabled", "css:finder"],
+        ["xpath=//input[@id='id_timeopen_enabled']", "xpath:attributes"],
+        ["xpath=//label[@id='yui_3_18_1_1_1701682365257_1198']/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83f79cb5-f05e-4cd6-a7dd-e2bb569126c5",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeopen_enabled",
+      "targets": [
+        ["id=id_timeopen_enabled", "id"],
+        ["name=timeopen[enabled]", "name"],
+        ["css=#id_timeopen_enabled", "css:finder"],
+        ["xpath=//input[@id='id_timeopen_enabled']", "xpath:attributes"],
+        ["xpath=//label[@id='yui_3_18_1_1_1701682365257_1198']/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dec5e216-5026-43dc-b623-f9d20c988e07",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeopen_enabled",
+      "targets": [
+        ["id=id_timeopen_enabled", "id"],
+        ["name=timeopen[enabled]", "name"],
+        ["css=#id_timeopen_enabled", "css:finder"],
+        ["xpath=//input[@id='id_timeopen_enabled']", "xpath:attributes"],
+        ["xpath=//label[@id='yui_3_18_1_1_1701682365257_1198']/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "389a5124-34dd-43a9-b65b-2fa9db935ab2",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeopen_day",
+      "targets": [
+        ["id=id_timeopen_day", "id"],
+        ["name=timeopen[day]", "name"],
+        ["css=#id_timeopen_day", "css:finder"],
+        ["xpath=//select[@id='id_timeopen_day']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701679869170_1180']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63829af9-07e2-4e27-b624-cc4523077b5f",
+      "comment": "",
+      "command": "select",
+      "target": "id=id_timeopen_day",
+      "targets": [],
+      "value": "label=19"
+    }, {
+      "id": "4b0ac457-7bfd-4e0f-8056-3bda2fe8ffcb",
+      "comment": "",
+      "command": "click",
+      "target": "css=#id_timeopen_day > option:nth-child(19)",
+      "targets": [
+        ["css=#id_timeopen_day > option:nth-child(19)", "css:finder"],
+        ["xpath=//option[@value='19']", "xpath:attributes"],
+        ["xpath=//select[@id='id_timeopen_day']/option[19]", "xpath:idRelative"],
+        ["xpath=//option[19]", "xpath:position"],
+        ["xpath=//option[contains(.,'19')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "271ac7ca-4195-4281-b954-645f889c96b5",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeopen_month",
+      "targets": [
+        ["id=id_timeopen_month", "id"],
+        ["name=timeopen[month]", "name"],
+        ["css=#id_timeopen_month", "css:finder"],
+        ["xpath=//select[@id='id_timeopen_month']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701679869170_1283']/select", "xpath:idRelative"],
+        ["xpath=//div[2]/span/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "50df5e12-44da-4c04-a4c2-2716d2aab6d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=#id_timeopen_month > option:nth-child(11)",
+      "targets": [
+        ["css=#id_timeopen_month > option:nth-child(11)", "css:finder"],
+        ["xpath=(//option[@value='11'])[2]", "xpath:attributes"],
+        ["xpath=//select[@id='id_timeopen_month']/option[11]", "xpath:idRelative"],
+        ["xpath=//div[2]/span/select/option[11]", "xpath:position"],
+        ["xpath=//option[contains(.,'November')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "47c912f3-79a7-4029-bfd4-3c29f039b8a0",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeopen_year",
+      "targets": [
+        ["id=id_timeopen_year", "id"],
+        ["name=timeopen[year]", "name"],
+        ["css=#id_timeopen_year", "css:finder"],
+        ["xpath=//select[@id='id_timeopen_year']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701679869170_1290']/select", "xpath:idRelative"],
+        ["xpath=//div[3]/span/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de68e4fa-2dc4-42d3-8ef3-0b44be497c3a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#id_timeopen_year > option:nth-child(124)",
+      "targets": [
+        ["css=#id_timeopen_year > option:nth-child(124)", "css:finder"],
+        ["xpath=//option[@value='2023']", "xpath:attributes"],
+        ["xpath=//select[@id='id_timeopen_year']/option[124]", "xpath:idRelative"],
+        ["xpath=//option[124]", "xpath:position"],
+        ["xpath=//option[contains(.,'2023')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b7e9116-849b-4cad-949b-06b83ad4eb08",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeopen_hour",
+      "targets": [
+        ["id=id_timeopen_hour", "id"],
+        ["name=timeopen[hour]", "name"],
+        ["css=#id_timeopen_hour", "css:finder"],
+        ["xpath=//select[@id='id_timeopen_hour']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701679869170_1297']/select", "xpath:idRelative"],
+        ["xpath=//div[4]/span/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4fa0b6d-50dd-46ca-8253-defc2506519d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#id_timeopen_hour > option:nth-child(11)",
+      "targets": [
+        ["css=#id_timeopen_hour > option:nth-child(11)", "css:finder"],
+        ["xpath=(//option[@value='10'])[3]", "xpath:attributes"],
+        ["xpath=//select[@id='id_timeopen_hour']/option[11]", "xpath:idRelative"],
+        ["xpath=//div[4]/span/select/option[11]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9201c552-54d1-4ffe-b221-d7d4ff2a3a8a",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeopen_minute",
+      "targets": [
+        ["id=id_timeopen_minute", "id"],
+        ["name=timeopen[minute]", "name"],
+        ["css=#id_timeopen_minute", "css:finder"],
+        ["xpath=//select[@id='id_timeopen_minute']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701679869170_1304']/select", "xpath:idRelative"],
+        ["xpath=//div[5]/span/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "333951ed-03a8-4465-9a2d-5808369bf93d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#id_timeopen_minute > option:nth-child(31)",
+      "targets": [
+        ["css=#id_timeopen_minute > option:nth-child(31)", "css:finder"],
+        ["xpath=(//option[@value='30'])[2]", "xpath:attributes"],
+        ["xpath=//select[@id='id_timeopen_minute']/option[31]", "xpath:idRelative"],
+        ["xpath=//div[5]/span/select/option[31]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9a7b9ba-0773-440e-9bdf-8c0f6d1055a7",
+      "comment": "",
+      "command": "check",
+      "target": "id=id_timeclose_enabled",
+      "targets": [
+        ["id=id_timeclose_enabled", "id"],
+        ["name=timeclose[enabled]", "name"],
+        ["css=#id_timeclose_enabled", "css:finder"],
+        ["xpath=//input[@id='id_timeclose_enabled']", "xpath:attributes"],
+        ["xpath=//label[@id='yui_3_18_1_1_1701682365257_1209']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/fieldset/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a78ee1a-d7aa-4cb6-9b3c-d4b9690464d0",
+      "comment": "",
+      "command": "verifyChecked",
+      "target": "id=id_timeclose_enabled",
+      "targets": [
+        ["id=id_timeclose_enabled", "id"],
+        ["name=timeclose[enabled]", "name"],
+        ["css=#id_timeclose_enabled", "css:finder"],
+        ["xpath=//input[@id='id_timeclose_enabled']", "xpath:attributes"],
+        ["xpath=//label[@id='yui_3_18_1_1_1701682365257_1209']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/fieldset/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7cdfa7d-e63d-4689-a0d8-9dc4af60c1f4",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeclose_enabled",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a8f6eb09-3563-40b2-a0af-3297206cabde",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeclose_enabled",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ddf30d8-a458-41b9-9e55-dd8213be1767",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeclose_day",
+      "targets": [
+        ["id=id_timeclose_day", "id"],
+        ["name=timeclose[day]", "name"],
+        ["css=#id_timeclose_day", "css:finder"],
+        ["xpath=//select[@id='id_timeclose_day']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701679869170_1312']/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/fieldset/div/div/span/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16cbffc4-08b3-4d66-8678-ac3202a864c5",
+      "comment": "",
+      "command": "select",
+      "target": "id=id_timeclose_day",
+      "targets": [],
+      "value": "label=11"
+    }, {
+      "id": "099d0ca4-fc9a-4d8b-8d2f-d99f74b40417",
+      "comment": "",
+      "command": "click",
+      "target": "css=#id_timeclose_day > option:nth-child(11)",
+      "targets": [
+        ["css=#id_timeclose_day > option:nth-child(11)", "css:finder"],
+        ["xpath=(//option[@value='11'])[5]", "xpath:attributes"],
+        ["xpath=//select[@id='id_timeclose_day']/option[11]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/fieldset/div/div/span/select/option[11]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "efbf36ba-a7f3-4167-98f3-74d0c06e78b8",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeclose_month",
+      "targets": [
+        ["id=id_timeclose_month", "id"],
+        ["name=timeclose[month]", "name"],
+        ["css=#id_timeclose_month", "css:finder"],
+        ["xpath=//select[@id='id_timeclose_month']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701679869170_1327']/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/fieldset/div/div[2]/span/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "78a14571-09af-4231-9280-5df6041320d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#id_timeclose_month > option:nth-child(11)",
+      "targets": [
+        ["css=#id_timeclose_month > option:nth-child(11)", "css:finder"],
+        ["xpath=(//option[@value='11'])[6]", "xpath:attributes"],
+        ["xpath=//select[@id='id_timeclose_month']/option[11]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/fieldset/div/div[2]/span/select/option[11]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "234ae4ed-63ce-4e12-a5ab-b5b0baad268b",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeclose_year",
+      "targets": [
+        ["id=id_timeclose_year", "id"],
+        ["name=timeclose[year]", "name"],
+        ["css=#id_timeclose_year", "css:finder"],
+        ["xpath=//select[@id='id_timeclose_year']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701679869170_1334']/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/fieldset/div/div[3]/span/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74f868c9-9e34-4794-bc8d-49c095934328",
+      "comment": "",
+      "command": "click",
+      "target": "css=#id_timeclose_year > option:nth-child(124)",
+      "targets": [
+        ["css=#id_timeclose_year > option:nth-child(124)", "css:finder"],
+        ["xpath=(//option[@value='2023'])[2]", "xpath:attributes"],
+        ["xpath=//select[@id='id_timeclose_year']/option[124]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/fieldset/div/div[3]/span/select/option[124]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fd5cf01-59d9-4407-8501-51fced4d118f",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeclose_hour",
+      "targets": [
+        ["id=id_timeclose_hour", "id"],
+        ["name=timeclose[hour]", "name"],
+        ["css=#id_timeclose_hour", "css:finder"],
+        ["xpath=//select[@id='id_timeclose_hour']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701679869170_1341']/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/fieldset/div/div[4]/span/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b39b593-728c-426b-9a93-4f028586c083",
+      "comment": "",
+      "command": "click",
+      "target": "css=#id_timeclose_hour > option:nth-child(11)",
+      "targets": [
+        ["css=#id_timeclose_hour > option:nth-child(11)", "css:finder"],
+        ["xpath=(//option[@value='10'])[7]", "xpath:attributes"],
+        ["xpath=//select[@id='id_timeclose_hour']/option[11]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/fieldset/div/div[4]/span/select/option[11]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cad8cf9e-e91d-4a05-92a8-c90237987f95",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeclose_minute",
+      "targets": [
+        ["id=id_timeclose_minute", "id"],
+        ["name=timeclose[minute]", "name"],
+        ["css=#id_timeclose_minute", "css:finder"],
+        ["xpath=//select[@id='id_timeclose_minute']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701679869170_1348']/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/fieldset/div/div[5]/span/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2187154-6af3-46b3-bd43-146ba42f3e35",
+      "comment": "",
+      "command": "click",
+      "target": "css=#id_timeclose_minute > option:nth-child(31)",
+      "targets": [
+        ["css=#id_timeclose_minute > option:nth-child(31)", "css:finder"],
+        ["xpath=(//option[@value='30'])[4]", "xpath:attributes"],
+        ["xpath=//select[@id='id_timeclose_minute']/option[31]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/fieldset/div/div[5]/span/select/option[31]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba52fe75-9ac1-483e-8540-13203323785f",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_submitbutton",
+      "targets": [
+        ["id=id_submitbutton", "id"],
+        ["name=submitbutton", "name"],
+        ["css=#id_submitbutton", "css:finder"],
+        ["xpath=//input[@id='id_submitbutton']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701679869170_1357']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "701fddc1-a9ce-4705-83b4-717b1eb66029",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "994fe2f3-535b-451d-bda6-d633465eda54",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=id_error_timeclose",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "ae4ad550-1e43-4bbb-84b9-324884ef6e11",
+    "name": "testcase4",
+    "commands": [{
+      "id": "a73e4d1e-40e6-4375-b88f-4b4ca8105dae",
+      "comment": "",
+      "command": "open",
+      "target": "https://school.moodledemo.net/my/courses.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e0f616e6-01bc-4629-acdf-871919e51989",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "485f7ea6-3a5b-47ba-ac03-62ff58a9b06a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[3]",
+      "targets": [
+        ["css=#course-info-container-69-4 .multiline", "css:finder"],
+        ["xpath=//div[@id='course-info-container-69-4']/div/div/a/span[3]", "xpath:idRelative"],
+        ["xpath=//span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb27e0c9-48b7-4255-bcc8-615f946d3d86",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modtype_quiz .aalink",
+      "targets": [
+        ["css=.modtype_quiz .aalink", "css:finder"],
+        ["xpath=(//a[@onclick=''])[15]", "xpath:attributes"],
+        ["xpath=//li[@id='module-978']/div/div[2]/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://school.moodledemo.net/mod/quiz/view.php?id=978')])[3]", "xpath:href"],
+        ["xpath=//li[4]/div[2]/ul/li/div/div[2]/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56a33160-ff5c-4c45-b766-695ad38ce396",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c726648a-d6f5-4bac-9d2d-133bb45a1a24",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Settings",
+      "targets": [
+        ["id=yui_3_18_1_1_1701679693773_219", "id"],
+        ["linkText=Settings", "linkText"],
+        ["css=#yui_3_18_1_1_1701679693773_219", "css:finder"],
+        ["xpath=//a[contains(text(),'Settings')]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_18_1_1_1701679693773_219']", "xpath:attributes"],
+        ["xpath=//li[@id='yui_3_18_1_1_1701679693773_220']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://school.moodledemo.net/course/modedit.php?update=978&return=1')]", "xpath:href"],
+        ["xpath=//div[2]/nav/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Settings')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8b7c1cc-7f7b-4ba4-9e5d-64295a7538e3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Questions",
+      "targets": [
+        ["linkText=Questions", "linkText"],
+        ["css=#moremenu-656d92bbb14e4-nav-tabs > .nav-item:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Questions')]", "xpath:link"],
+        ["xpath=//ul[@id='moremenu-656d92bbb14e4-nav-tabs']/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://school.moodledemo.net/mod/quiz/edit.php?cmid=978')]", "xpath:href"],
+        ["xpath=//div[2]/nav/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Questions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5fcaf26-27e5-4b8b-9a93-c2f83dbb278b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1bb32c6c-9721-4606-9674-40c5e61fa793",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Questions",
+      "targets": [
+        ["linkText=Questions", "linkText"],
+        ["css=#moremenu-656d92bbb14e4-nav-tabs > .nav-item:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Questions')]", "xpath:link"],
+        ["xpath=//ul[@id='moremenu-656d92bbb14e4-nav-tabs']/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://school.moodledemo.net/mod/quiz/edit.php?cmid=978')]", "xpath:href"],
+        ["xpath=//div[2]/nav/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Questions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7250706e-b03a-426d-9015-adf6784233c1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,316.79998779296875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "86ec537b-ab8f-4364-b5a9-d52e8806df4f",
+      "comment": "",
+      "command": "click",
+      "target": "id=collapseElement-1",
+      "targets": [
+        ["id=collapseElement-1", "id"],
+        ["linkText=Timing", "linkText"],
+        ["css=#collapseElement-1", "css:finder"],
+        ["xpath=//a[@id='collapseElement-1']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701679806377_1161']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#id_timingcontainer')]", "xpath:href"],
+        ["xpath=//fieldset[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Timing')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2382ee4f-09df-4fdb-bfdc-140aff426c07",
+      "comment": "",
+      "command": "uncheck",
+      "target": "id=id_timeopen_enabled",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "89bb347d-9617-4850-a9ff-95449fc19979",
+      "comment": "",
+      "command": "assertNotChecked",
+      "target": "id=id_timeopen_enabled",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "226503d3-15ed-4e37-ae07-f6750a31b7e1",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeopen_day",
+      "targets": [
+        ["id=id_timeopen_day", "id"],
+        ["name=timeopen[day]", "name"],
+        ["css=#id_timeopen_day", "css:finder"],
+        ["xpath=//select[@id='id_timeopen_day']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701680751589_1026']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15f3516a-d04a-4b52-8ab1-28a6be23abfa",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeopen_day",
+      "targets": [
+        ["id=id_timeopen_day", "id"],
+        ["name=timeopen[day]", "name"],
+        ["css=#id_timeopen_day", "css:finder"],
+        ["xpath=//select[@id='id_timeopen_day']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701680751589_1026']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57f9a8a1-0c89-46c3-aa71-29ea939293ee",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeopen_minute",
+      "targets": [
+        ["id=id_timeopen_minute", "id"],
+        ["name=timeopen[minute]", "name"],
+        ["css=#id_timeopen_minute", "css:finder"],
+        ["xpath=//select[@id='id_timeopen_minute']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701680751589_1034']/select", "xpath:idRelative"],
+        ["xpath=//div[5]/span/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d182ce33-f267-40eb-bdd1-de8508e634c4",
+      "comment": "",
+      "command": "check",
+      "target": "id=id_timeclose_enabled",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5f6592e7-ccd8-4b7a-8a96-b029a6dc00a1",
+      "comment": "",
+      "command": "assertChecked",
+      "target": "id=id_timeclose_enabled",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e481efab-8ab8-40f7-982a-8815aafd4ea1",
+      "comment": "",
+      "command": "check",
+      "target": "id=id_timeclose_enabled",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fff0e723-b383-4116-a84b-19a484838155",
+      "comment": "",
+      "command": "verifyChecked",
+      "target": "id=id_timeclose_enabled",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3bad40a-8acd-4cb6-8da5-54663726294f",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeclose_enabled",
+      "targets": [
+        ["id=id_timeclose_enabled", "id"],
+        ["name=timeclose[enabled]", "name"],
+        ["css=#id_timeclose_enabled", "css:finder"],
+        ["xpath=//input[@id='id_timeclose_enabled']", "xpath:attributes"],
+        ["xpath=//label[@id='yui_3_18_1_1_1701683833069_1226']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/fieldset/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4181809f-f960-43bc-9d12-d959c1a1f833",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeclose_enabled",
+      "targets": [
+        ["id=id_timeclose_enabled", "id"],
+        ["name=timeclose[enabled]", "name"],
+        ["css=#id_timeclose_enabled", "css:finder"],
+        ["xpath=//input[@id='id_timeclose_enabled']", "xpath:attributes"],
+        ["xpath=//label[@id='yui_3_18_1_1_1701683833069_1226']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/fieldset/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1edebed-753a-4be6-939d-71ac7d45495b",
+      "comment": "",
+      "command": "select",
+      "target": "id=id_timeclose_day",
+      "targets": [],
+      "value": "label=19"
+    }, {
+      "id": "1dfbabef-52f9-4fc9-9ac3-dc54b91fa0fd",
+      "comment": "",
+      "command": "click",
+      "target": "css=#id_timeclose_day > option:nth-child(19)",
+      "targets": [
+        ["css=#id_timeclose_day > option:nth-child(19)", "css:finder"],
+        ["xpath=(//option[@value='19'])[4]", "xpath:attributes"],
+        ["xpath=//select[@id='id_timeclose_day']/option[19]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/fieldset/div/div/span/select/option[19]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9060a66-d624-4a77-a278-c06039d669b7",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeclose_month",
+      "targets": [
+        ["id=id_timeclose_month", "id"],
+        ["name=timeclose[month]", "name"],
+        ["css=#id_timeclose_month", "css:finder"],
+        ["xpath=//select[@id='id_timeclose_month']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701683833069_1093']/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/fieldset/div/div[2]/span/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea2688e5-7330-47ce-b7a8-3643385ca93a",
+      "comment": "",
+      "command": "select",
+      "target": "id=id_timeclose_month",
+      "targets": [],
+      "value": "label=November"
+    }, {
+      "id": "3f34eebe-5b0a-47bd-8cbc-b6f94c57fafe",
+      "comment": "",
+      "command": "click",
+      "target": "css=#id_timeclose_month > option:nth-child(11)",
+      "targets": [
+        ["css=#id_timeclose_month > option:nth-child(11)", "css:finder"],
+        ["xpath=(//option[@value='11'])[6]", "xpath:attributes"],
+        ["xpath=//select[@id='id_timeclose_month']/option[11]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/fieldset/div/div[2]/span/select/option[11]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "369229cb-d24d-4a4c-8bd5-627c78fac42e",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeclose_year",
+      "targets": [
+        ["id=id_timeclose_year", "id"],
+        ["name=timeclose[year]", "name"],
+        ["css=#id_timeclose_year", "css:finder"],
+        ["xpath=//select[@id='id_timeclose_year']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701683833069_1095']/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/fieldset/div/div[3]/span/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00d2cbca-1e44-49f2-96cd-7586ffa21571",
+      "comment": "",
+      "command": "click",
+      "target": "css=#id_timeclose_year > option:nth-child(124)",
+      "targets": [
+        ["css=#id_timeclose_year > option:nth-child(124)", "css:finder"],
+        ["xpath=(//option[@value='2023'])[2]", "xpath:attributes"],
+        ["xpath=//select[@id='id_timeclose_year']/option[124]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/fieldset/div/div[3]/span/select/option[124]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b49b577f-0a29-43f6-8bf1-a91bfa64eba2",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeclose_hour",
+      "targets": [
+        ["id=id_timeclose_hour", "id"],
+        ["name=timeclose[hour]", "name"],
+        ["css=#id_timeclose_hour", "css:finder"],
+        ["xpath=//select[@id='id_timeclose_hour']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701683833069_1097']/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/fieldset/div/div[4]/span/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "baeb26e5-a015-4c5c-86c9-5c9b2bf431f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=#id_timeclose_hour > option:nth-child(11)",
+      "targets": [
+        ["css=#id_timeclose_hour > option:nth-child(11)", "css:finder"],
+        ["xpath=(//option[@value='10'])[7]", "xpath:attributes"],
+        ["xpath=//select[@id='id_timeclose_hour']/option[11]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/fieldset/div/div[4]/span/select/option[11]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd2c9e8a-2d6a-4b89-bcf2-09eade6ef73d",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeclose_minute",
+      "targets": [
+        ["id=id_timeclose_minute", "id"],
+        ["name=timeclose[minute]", "name"],
+        ["css=#id_timeclose_minute", "css:finder"],
+        ["xpath=//select[@id='id_timeclose_minute']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701683833069_1099']/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/fieldset/div/div[5]/span/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "687526c1-9ece-4456-af08-289ac18d97f4",
+      "comment": "",
+      "command": "select",
+      "target": "id=id_timeclose_minute",
+      "targets": [],
+      "value": "label=30"
+    }, {
+      "id": "ea12a34d-0448-4d9d-98cd-f215060fb55c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#id_timeclose_minute > option:nth-child(31)",
+      "targets": [
+        ["css=#id_timeclose_minute > option:nth-child(31)", "css:finder"],
+        ["xpath=(//option[@value='30'])[4]", "xpath:attributes"],
+        ["xpath=//select[@id='id_timeclose_minute']/option[31]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/fieldset/div/div[5]/span/select/option[31]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "623a722c-d670-48a0-a891-b898a12aabf8",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_submitbutton",
+      "targets": [
+        ["id=id_submitbutton", "id"],
+        ["name=submitbutton", "name"],
+        ["css=#id_submitbutton", "css:finder"],
+        ["xpath=//input[@id='id_submitbutton']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701683833069_1364']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "80243aa4-88b3-4008-a04d-628fb58ad67a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "69b620e6-dcee-4c0a-8609-256e532b397b",
+    "name": "testcase5",
+    "commands": [{
+      "id": "129b3f74-8ed9-4a61-a313-2e49f575a854",
+      "comment": "",
+      "command": "open",
+      "target": "https://school.moodledemo.net/my/courses.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "36767e77-c11a-43ce-ba95-9e0e370e6adb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c513cefa-27b5-4848-940e-dc035fb20c3e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[3]",
+      "targets": [
+        ["css=#course-info-container-69-4 .multiline", "css:finder"],
+        ["xpath=//div[@id='course-info-container-69-4']/div/div/a/span[3]", "xpath:idRelative"],
+        ["xpath=//span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6cfea6b-63ba-4b71-9be7-26157aeb28e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modtype_quiz .aalink",
+      "targets": [
+        ["css=.modtype_quiz .aalink", "css:finder"],
+        ["xpath=(//a[@onclick=''])[15]", "xpath:attributes"],
+        ["xpath=//li[@id='module-978']/div/div[2]/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://school.moodledemo.net/mod/quiz/view.php?id=978')])[3]", "xpath:href"],
+        ["xpath=//li[4]/div[2]/ul/li/div/div[2]/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7a547af-a657-444a-82b6-e49d730cccbe",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1132cf8a-48e7-428d-91ec-8c5725f633bc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Settings",
+      "targets": [
+        ["id=yui_3_18_1_1_1701679693773_219", "id"],
+        ["linkText=Settings", "linkText"],
+        ["css=#yui_3_18_1_1_1701679693773_219", "css:finder"],
+        ["xpath=//a[contains(text(),'Settings')]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_18_1_1_1701679693773_219']", "xpath:attributes"],
+        ["xpath=//li[@id='yui_3_18_1_1_1701679693773_220']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://school.moodledemo.net/course/modedit.php?update=978&return=1')]", "xpath:href"],
+        ["xpath=//div[2]/nav/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Settings')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4eb340a1-9815-4c31-835e-2df2cdd57033",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Questions",
+      "targets": [
+        ["linkText=Questions", "linkText"],
+        ["css=#moremenu-656d92bbb14e4-nav-tabs > .nav-item:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Questions')]", "xpath:link"],
+        ["xpath=//ul[@id='moremenu-656d92bbb14e4-nav-tabs']/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://school.moodledemo.net/mod/quiz/edit.php?cmid=978')]", "xpath:href"],
+        ["xpath=//div[2]/nav/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Questions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4aef313-ef2c-40fb-b119-1e8b5122218f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a4194ed7-15e0-4fdd-a803-1fe73528332d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Questions",
+      "targets": [
+        ["linkText=Questions", "linkText"],
+        ["css=#moremenu-656d92bbb14e4-nav-tabs > .nav-item:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Questions')]", "xpath:link"],
+        ["xpath=//ul[@id='moremenu-656d92bbb14e4-nav-tabs']/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://school.moodledemo.net/mod/quiz/edit.php?cmid=978')]", "xpath:href"],
+        ["xpath=//div[2]/nav/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Questions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "45cef788-e1c2-406b-ac66-666d01e1e676",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,316.79998779296875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "edabb7ba-4e27-4b49-9d98-6f1d9e9adc60",
+      "comment": "",
+      "command": "click",
+      "target": "id=collapseElement-1",
+      "targets": [
+        ["id=collapseElement-1", "id"],
+        ["linkText=Timing", "linkText"],
+        ["css=#collapseElement-1", "css:finder"],
+        ["xpath=//a[@id='collapseElement-1']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701679806377_1161']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#id_timingcontainer')]", "xpath:href"],
+        ["xpath=//fieldset[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Timing')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f536fbd7-5598-45f8-bb7e-edfcc26e8e04",
+      "comment": "",
+      "command": "uncheck",
+      "target": "id=id_timeopen_enabled",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2ba36bc2-c376-43e3-b133-5e25f2055224",
+      "comment": "",
+      "command": "verifyNotChecked",
+      "target": "id=id_timeopen_enabled",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7966390e-ea00-43cc-838e-c4f9d1ba4c9c",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeopen_enabled",
+      "targets": [
+        ["id=id_timeopen_enabled", "id"],
+        ["name=timeopen[enabled]", "name"],
+        ["css=#id_timeopen_enabled", "css:finder"],
+        ["xpath=//input[@id='id_timeopen_enabled']", "xpath:attributes"],
+        ["xpath=//label[@id='yui_3_18_1_1_1701683051655_1185']/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce641b80-7838-41b3-8fd7-c273b10f6bda",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeopen_enabled",
+      "targets": [
+        ["id=id_timeopen_enabled", "id"],
+        ["name=timeopen[enabled]", "name"],
+        ["css=#id_timeopen_enabled", "css:finder"],
+        ["xpath=//input[@id='id_timeopen_enabled']", "xpath:attributes"],
+        ["xpath=//label[@id='yui_3_18_1_1_1701683051655_1185']/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38a2ce57-7d76-4a44-8297-20297b2e4126",
+      "comment": "",
+      "command": "uncheck",
+      "target": "id=id_timeclose_enabled",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d2fe475a-3297-458a-b25f-2cfb5f98f808",
+      "comment": "",
+      "command": "verifyNotChecked",
+      "target": "id=id_timeclose_enabled",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2830cd34-9b1e-4977-b463-8a882787f772",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeclose_enabled",
+      "targets": [
+        ["id=id_timeclose_enabled", "id"],
+        ["name=timeclose[enabled]", "name"],
+        ["css=#id_timeclose_enabled", "css:finder"],
+        ["xpath=//input[@id='id_timeclose_enabled']", "xpath:attributes"],
+        ["xpath=//label[@id='yui_3_18_1_1_1701683051655_1187']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/fieldset/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ffda91c-f73c-495e-a8ae-0e645cb6ae23",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeclose_enabled",
+      "targets": [
+        ["id=id_timeclose_enabled", "id"],
+        ["name=timeclose[enabled]", "name"],
+        ["css=#id_timeclose_enabled", "css:finder"],
+        ["xpath=//input[@id='id_timeclose_enabled']", "xpath:attributes"],
+        ["xpath=//label[@id='yui_3_18_1_1_1701683051655_1187']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/fieldset/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a37ba63-16c7-401d-aefe-905a95a5d99d",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_submitbutton",
+      "targets": [
+        ["id=id_submitbutton", "id"],
+        ["name=submitbutton", "name"],
+        ["css=#id_submitbutton", "css:finder"],
+        ["xpath=//input[@id='id_submitbutton']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701683171554_1236']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4028c491-6b3a-49d4-9d63-eac6b2449476",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Quiz",
+      "targets": [
+        ["linkText=Quiz", "linkText"],
+        ["css=.active_tree_node", "css:finder"],
+        ["xpath=//a[contains(text(),'Quiz')]", "xpath:link"],
+        ["xpath=//ul[@id='moremenu-656d9ff7712e6-nav-tabs']/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://school.moodledemo.net/mod/quiz/view.php?id=961')])[148]", "xpath:href"],
+        ["xpath=//div[2]/nav/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Quiz')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "15aeb17c-0f5f-43e8-b8a8-0f6b6bf9af0a",
+    "name": "testcase3",
+    "commands": [{
+      "id": "9be0f80e-5173-437f-b0fe-aee63407052c",
+      "comment": "",
+      "command": "open",
+      "target": "https://school.moodledemo.net/my/courses.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd50ea33-6489-4332-84bf-8e4cd96ec54f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "580x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba746d6d-6fce-4d80-80c9-8ba2bcc432d7",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[3]",
+      "targets": [
+        ["css=#course-info-container-51-4 .multiline", "css:finder"],
+        ["xpath=//div[@id='course-info-container-51-4']/div/div/a/span[3]", "xpath:idRelative"],
+        ["xpath=//span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20fcecc5-d0bf-4a27-b256-3e309dd5f417",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,105.5999984741211)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5033a9ec-defe-4b31-b2b4-78d124c12daf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modtype_quiz .aalink",
+      "targets": [
+        ["linkText=Quiz: Test your knowledge on Alpinism", "linkText"],
+        ["css=.modtype_quiz .aalink", "css:finder"],
+        ["xpath=(//a[@onclick=''])[13]", "xpath:attributes"],
+        ["xpath=//li[@id='module-961']/div/div[2]/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://school.moodledemo.net/mod/quiz/view.php?id=961')])[3]", "xpath:href"],
+        ["xpath=//li[5]/div[2]/ul/li[2]/div/div[2]/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Quiz: Test your knowledge on Alpinism ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "81e89ee0-e379-4355-875d-8833af22b10e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f7aa353b-8158-4667-a1d0-14d7206d8621",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Settings",
+      "targets": [
+        ["linkText=Settings", "linkText"],
+        ["css=#moremenu-656da08e99573-nav-tabs > .nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Settings')]", "xpath:link"],
+        ["xpath=//ul[@id='moremenu-656da08e99573-nav-tabs']/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://school.moodledemo.net/course/modedit.php?update=961&return=1')]", "xpath:href"],
+        ["xpath=//div[2]/nav/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Settings')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "887734d7-49d5-4a23-898e-593e31940a6c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e1dd54fc-fa51-44e8-83cb-89fa47155e19",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,211.1999969482422)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5f1f596a-5851-47f8-8fac-905957616db9",
+      "comment": "",
+      "command": "click",
+      "target": "id=collapseElement-1",
+      "targets": [
+        ["id=collapseElement-1", "id"],
+        ["linkText=Timing", "linkText"],
+        ["css=#collapseElement-1", "css:finder"],
+        ["xpath=//a[@id='collapseElement-1']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701683346845_1214']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#id_timingcontainer')]", "xpath:href"],
+        ["xpath=//fieldset[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Timing')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4364dce8-4e64-4c6d-80ca-167396500dc3",
+      "comment": "",
+      "command": "check",
+      "target": "id=id_timeopen_enabled",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "012be32d-ecbe-4816-95e5-63695187bd06",
+      "comment": "",
+      "command": "verifyChecked",
+      "target": "id=id_timeopen_enabled",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "96bad94d-ff7c-4a23-bd78-74520307aa2d",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeopen_enabled",
+      "targets": [
+        ["id=id_timeopen_enabled", "id"],
+        ["name=timeopen[enabled]", "name"],
+        ["css=#id_timeopen_enabled", "css:finder"],
+        ["xpath=//input[@id='id_timeopen_enabled']", "xpath:attributes"],
+        ["xpath=//label[@id='yui_3_18_1_1_1701683346845_1224']/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f74c7dd-fa39-44fc-9433-9b38e55c54a4",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeopen_enabled",
+      "targets": [
+        ["id=id_timeopen_enabled", "id"],
+        ["name=timeopen[enabled]", "name"],
+        ["css=#id_timeopen_enabled", "css:finder"],
+        ["xpath=//input[@id='id_timeopen_enabled']", "xpath:attributes"],
+        ["xpath=//label[@id='yui_3_18_1_1_1701683346845_1224']/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d78b2778-6103-4bc5-9531-df31eb90afdc",
+      "comment": "",
+      "command": "select",
+      "target": "id=id_timeopen_day",
+      "targets": [],
+      "value": "label=19"
+    }, {
+      "id": "89969b10-9828-48a6-9863-876ff89fb176",
+      "comment": "",
+      "command": "click",
+      "target": "css=#id_timeopen_day > option:nth-child(19)",
+      "targets": [
+        ["css=#id_timeopen_day > option:nth-child(19)", "css:finder"],
+        ["xpath=//option[@value='19']", "xpath:attributes"],
+        ["xpath=//select[@id='id_timeopen_day']/option[19]", "xpath:idRelative"],
+        ["xpath=//option[19]", "xpath:position"],
+        ["xpath=//option[contains(.,'19')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1d4d504-c357-4354-afc4-0b560ae12593",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeopen_month",
+      "targets": [
+        ["id=id_timeopen_month", "id"],
+        ["name=timeopen[month]", "name"],
+        ["css=#id_timeopen_month", "css:finder"],
+        ["xpath=//select[@id='id_timeopen_month']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701683346845_1093']/select", "xpath:idRelative"],
+        ["xpath=//div[2]/span/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6021046-4677-4cfc-8c07-9b0d80a73955",
+      "comment": "",
+      "command": "select",
+      "target": "id=id_timeopen_month",
+      "targets": [],
+      "value": "label=November"
+    }, {
+      "id": "4c8e3696-cf94-4b2a-b3bd-36fb80a27aa5",
+      "comment": "",
+      "command": "click",
+      "target": "css=#id_timeopen_month > option:nth-child(11)",
+      "targets": [
+        ["css=#id_timeopen_month > option:nth-child(11)", "css:finder"],
+        ["xpath=(//option[@value='11'])[2]", "xpath:attributes"],
+        ["xpath=//select[@id='id_timeopen_month']/option[11]", "xpath:idRelative"],
+        ["xpath=//div[2]/span/select/option[11]", "xpath:position"],
+        ["xpath=//option[contains(.,'November')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f736ef82-8db0-40a8-bcaf-8a9ba9970781",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeopen_year",
+      "targets": [
+        ["id=id_timeopen_year", "id"],
+        ["name=timeopen[year]", "name"],
+        ["css=#id_timeopen_year", "css:finder"],
+        ["xpath=//select[@id='id_timeopen_year']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701683346845_1095']/select", "xpath:idRelative"],
+        ["xpath=//div[3]/span/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09c73c56-3d2f-4c50-83cf-e92ba6004949",
+      "comment": "",
+      "command": "click",
+      "target": "css=#id_timeopen_year > option:nth-child(124)",
+      "targets": [
+        ["css=#id_timeopen_year > option:nth-child(124)", "css:finder"],
+        ["xpath=//option[@value='2023']", "xpath:attributes"],
+        ["xpath=//select[@id='id_timeopen_year']/option[124]", "xpath:idRelative"],
+        ["xpath=//option[124]", "xpath:position"],
+        ["xpath=//option[contains(.,'2023')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fe0d5c4-dd32-482c-a1e4-b7ba25634283",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeopen_hour",
+      "targets": [
+        ["id=id_timeopen_hour", "id"],
+        ["name=timeopen[hour]", "name"],
+        ["css=#id_timeopen_hour", "css:finder"],
+        ["xpath=//select[@id='id_timeopen_hour']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701683346845_1097']/select", "xpath:idRelative"],
+        ["xpath=//div[4]/span/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "772201f7-fa14-4f2b-87d3-5dea2a414dd1",
+      "comment": "",
+      "command": "click",
+      "target": "css=#id_timeopen_hour > option:nth-child(11)",
+      "targets": [
+        ["css=#id_timeopen_hour > option:nth-child(11)", "css:finder"],
+        ["xpath=(//option[@value='10'])[3]", "xpath:attributes"],
+        ["xpath=//select[@id='id_timeopen_hour']/option[11]", "xpath:idRelative"],
+        ["xpath=//div[4]/span/select/option[11]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2984cdb8-eb02-4d1d-bd6c-fb53a3063bef",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeopen_minute",
+      "targets": [
+        ["id=id_timeopen_minute", "id"],
+        ["name=timeopen[minute]", "name"],
+        ["css=#id_timeopen_minute", "css:finder"],
+        ["xpath=//select[@id='id_timeopen_minute']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701683346845_1099']/select", "xpath:idRelative"],
+        ["xpath=//div[5]/span/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3725f9f2-ca9f-4d02-a593-a6e1f312a99d",
+      "comment": "",
+      "command": "select",
+      "target": "id=id_timeopen_minute",
+      "targets": [],
+      "value": "label=30"
+    }, {
+      "id": "dbe6549f-2783-4376-956e-5619f3d56d62",
+      "comment": "",
+      "command": "click",
+      "target": "css=#id_timeopen_minute > option:nth-child(31)",
+      "targets": [
+        ["css=#id_timeopen_minute > option:nth-child(31)", "css:finder"],
+        ["xpath=(//option[@value='30'])[2]", "xpath:attributes"],
+        ["xpath=//select[@id='id_timeopen_minute']/option[31]", "xpath:idRelative"],
+        ["xpath=//div[5]/span/select/option[31]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02d2d9b0-9462-4dc4-8a04-d6aa6d364d9d",
+      "comment": "",
+      "command": "uncheck",
+      "target": "id=id_timeclose_enabled",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ffa539ad-34c3-48f9-89cf-fad41f21e3dc",
+      "comment": "",
+      "command": "verifyNotChecked",
+      "target": "id=id_timeclose_enabled",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5c5c0731-f551-43cb-b952-541ce5798025",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeclose_enabled",
+      "targets": [
+        ["id=id_timeclose_enabled", "id"],
+        ["name=timeclose[enabled]", "name"],
+        ["css=#id_timeclose_enabled", "css:finder"],
+        ["xpath=//input[@id='id_timeclose_enabled']", "xpath:attributes"],
+        ["xpath=//label[@id='yui_3_18_1_1_1701683346845_1362']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/fieldset/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c1b4abb-33e8-42a9-a395-c8e2244c97c1",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_timeclose_enabled",
+      "targets": [
+        ["id=id_timeclose_enabled", "id"],
+        ["name=timeclose[enabled]", "name"],
+        ["css=#id_timeclose_enabled", "css:finder"],
+        ["xpath=//input[@id='id_timeclose_enabled']", "xpath:attributes"],
+        ["xpath=//label[@id='yui_3_18_1_1_1701683346845_1362']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/fieldset/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65bc9907-5139-46f0-a9df-f902eb4bbdab",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_submitbutton",
+      "targets": [
+        ["id=id_submitbutton", "id"],
+        ["name=submitbutton", "name"],
+        ["css=#id_submitbutton", "css:finder"],
+        ["xpath=//input[@id='id_submitbutton']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1701683346845_1369']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dff078d1-8d4e-4036-8066-528dbc4afc3d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "5604d5e1-e9c9-4c5a-99e3-a40bff4874a1",
+    "name": "testcase6 - logout",
+    "commands": [{
+      "id": "5a804041-1d98-4c53-a26e-e522b1e5e969",
+      "comment": "",
+      "command": "open",
+      "target": "https://school.moodledemo.net/my/courses.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "17f2954b-4555-4743-bf8d-4c411c219f4e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "580x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "71ff546b-e4c7-4760-9ef3-040d27121def",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=user-menu-toggle",
+      "targets": [
+        ["id=user-menu-toggle", "id"],
+        ["css=#user-menu-toggle", "css:finder"],
+        ["xpath=//a[@id='user-menu-toggle']", "xpath:attributes"],
+        ["xpath=//div[@id='usernavigation']/div[5]/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[7]", "xpath:href"],
+        ["xpath=//div[5]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9df87f8f-daf0-41b9-a23b-7bd578d5fab5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=user-menu-toggle",
+      "targets": [
+        ["id=user-menu-toggle", "id"],
+        ["css=#user-menu-toggle", "css:finder"],
+        ["xpath=//a[@id='user-menu-toggle']", "xpath:attributes"],
+        ["xpath=//div[@id='usernavigation']/div[5]/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[7]", "xpath:href"],
+        ["xpath=//div[5]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08fb5737-abd3-457a-a2ab-2b4debabf947",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=user-menu-toggle",
+      "targets": [
+        ["id=user-menu-toggle", "id"],
+        ["css=#user-menu-toggle", "css:finder"],
+        ["xpath=//a[@id='user-menu-toggle']", "xpath:attributes"],
+        ["xpath=//div[@id='usernavigation']/div[5]/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[7]", "xpath:href"],
+        ["xpath=//div[5]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85aca4f0-467d-4c71-945b-a337497bce49",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=user-menu-toggle",
+      "targets": [
+        ["id=user-menu-toggle", "id"],
+        ["css=#user-menu-toggle", "css:finder"],
+        ["xpath=//a[@id='user-menu-toggle']", "xpath:attributes"],
+        ["xpath=//div[@id='usernavigation']/div[5]/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[7]", "xpath:href"],
+        ["xpath=//div[5]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae1c516b-c9e6-4f50-a594-afc82b9f5c27",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=user-menu-toggle",
+      "targets": [
+        ["id=user-menu-toggle", "id"],
+        ["css=#user-menu-toggle", "css:finder"],
+        ["xpath=//a[@id='user-menu-toggle']", "xpath:attributes"],
+        ["xpath=//div[@id='usernavigation']/div[5]/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[7]", "xpath:href"],
+        ["xpath=//div[5]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9858091-208f-42c0-9742-d50430ce564c",
+      "comment": "",
+      "command": "click",
+      "target": "id=user-menu-toggle",
+      "targets": [
+        ["id=user-menu-toggle", "id"],
+        ["css=#user-menu-toggle", "css:finder"],
+        ["xpath=//a[@id='user-menu-toggle']", "xpath:attributes"],
+        ["xpath=//div[@id='usernavigation']/div[5]/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[7]", "xpath:href"],
+        ["xpath=//div[5]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dcee73dc-8941-4334-aa92-257e437cc79e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log out",
+      "targets": [
+        ["linkText=Log out", "linkText"],
+        ["css=#carousel-item-main > .dropdown-item:nth-child(11)", "css:finder"],
+        ["xpath=//a[contains(text(),'Log out')]", "xpath:link"],
+        ["xpath=//div[@id='carousel-item-main']/a[9]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://school.moodledemo.net/login/logout.php?sesskey=3rsX6KtkiM')]", "xpath:href"],
+        ["xpath=//a[9]", "xpath:position"],
+        ["xpath=//a[contains(.,'Log out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9b9746c-dab5-43b3-a6d1-c588b196821c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "739eadf0-8a6b-43b4-89a6-d1dffde9ac5e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://school.moodledemo.net/"],
+  "plugins": []
+}

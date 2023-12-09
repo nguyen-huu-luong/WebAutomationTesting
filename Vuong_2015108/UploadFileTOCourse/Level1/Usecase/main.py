@@ -26,7 +26,7 @@ class UploadFileToCourseEquivalenceClass(unittest.TestCase):
 
     def teardown_method(self):
         self.driver.quit()
-        # self.clear_files_in_directory(os.path.join(os.getcwd(), 'test_files'))
+        self.clear_files_in_directory(os.path.join(os.getcwd(), 'test_files'))
 
     def login(self):
         self.driver.find_element(By.LINK_TEXT, "Log in").click()

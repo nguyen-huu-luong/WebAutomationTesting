@@ -15,11 +15,11 @@ class UserPictureTest(unittest.TestCase):
     def setUp(self):
         current_directory = os.getcwd()
         self.img = [
-            os.path.join(current_directory, 'case', '2kb.png'),
-            os.path.join(current_directory, 'img', 'case#1kb.jpg'),
+            os.path.join(current_directory, 'img', 'case#12mb.jpg'),
             os.path.join(current_directory, 'case', '256mb.png'),
-            os.path.join(current_directory, 'case', '128mb.png'),
-            os.path.join(current_directory, 'case', '125mb.png'),
+            os.path.join(current_directory, 'case', '156mb.pdf'),
+            os.path.join(current_directory, 'case', '300mb.mp4'),
+            os.path.join(current_directory, 'case', '300mb_jpg.jpg'),
         ]
         self.driver = webdriver.Chrome()
 
@@ -31,20 +31,19 @@ class UserPictureTest(unittest.TestCase):
         driver.find_element(By.ID, "password").send_keys("moodle")
         driver.find_element(By.ID, "loginbtn").click()
         driver.find_element(By.ID, "collapseElement-0").click()
-        time.sleep(10)
+        time.sleep(3)
         driver.find_element(
             By.CSS_SELECTOR, ".dndupload-message").find_element(By.XPATH, "div[1]").click()
+        time.sleep(3)
+        driver.find_element(By.NAME, "repo_upload_file").send_keys(self.img[0])
         time.sleep(10)
         driver.find_element(
-            By.NAME, "repo_upload_file").send_keys(self.img[0])
-        time.sleep(3)
-        driver.find_element(
             By.XPATH, "//button[contains(text(), 'Upload this file')]").click()
-        time.sleep(3)
+        time.sleep(10)
         driver.find_element(
-            By.ID, "id_submitbutton").click()
+            By.XPATH, "//input[contains(@value, 'Update profile')]").click()
+
         assert "Changes saved" in driver.page_source
-        print(f"Testcase #{1} : pass")
 
     def test_case_2(self):
         driver = self.driver
@@ -59,10 +58,10 @@ class UserPictureTest(unittest.TestCase):
             By.CSS_SELECTOR, ".dndupload-message").find_element(By.XPATH, "div[1]").click()
         time.sleep(3)
         driver.find_element(By.NAME, "repo_upload_file").send_keys(self.img[1])
-        time.sleep(3)
+        time.sleep(10)
         driver.find_element(
             By.XPATH, "//button[contains(text(), 'Upload this file')]").click()
-        time.sleep(3)
+        time.sleep(10)
         driver.find_element(
             By.XPATH, "//input[contains(@value, 'Update profile')]").click()
 
@@ -81,10 +80,10 @@ class UserPictureTest(unittest.TestCase):
             By.CSS_SELECTOR, ".dndupload-message").find_element(By.XPATH, "div[1]").click()
         time.sleep(3)
         driver.find_element(By.NAME, "repo_upload_file").send_keys(self.img[2])
-        time.sleep(3)
+        time.sleep(10)
         driver.find_element(
             By.XPATH, "//button[contains(text(), 'Upload this file')]").click()
-        time.sleep(3)
+        time.sleep(10)
         driver.find_element(
             By.XPATH, "//input[contains(@value, 'Update profile')]").click()
 
@@ -103,10 +102,10 @@ class UserPictureTest(unittest.TestCase):
             By.CSS_SELECTOR, ".dndupload-message").find_element(By.XPATH, "div[1]").click()
         time.sleep(3)
         driver.find_element(By.NAME, "repo_upload_file").send_keys(self.img[3])
-        time.sleep(3)
+        time.sleep(10)
         driver.find_element(
             By.XPATH, "//button[contains(text(), 'Upload this file')]").click()
-        time.sleep(3)
+        time.sleep(10)
         driver.find_element(
             By.XPATH, "//input[contains(@value, 'Update profile')]").click()
 
@@ -135,6 +134,7 @@ class UserPictureTest(unittest.TestCase):
         assert "Changes saved" in driver.page_source
 
     # cleanup method called after every test performed
+
     def tearDown(self):
         self.driver.close()
 

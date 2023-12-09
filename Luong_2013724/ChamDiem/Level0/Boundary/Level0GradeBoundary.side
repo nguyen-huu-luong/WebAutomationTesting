@@ -1,0 +1,596 @@
+{
+  "id": "91061bbc-5607-45c5-a4fc-cc7bafe4e41b",
+  "version": "2.0",
+  "name": "Level0GradeBoundary",
+  "url": "https://school.moodledemo.net/mod/assign/view.php?id=775",
+  "tests": [{
+    "id": "a5989699-d86a-452c-92cc-f01e7038de81",
+    "name": "Test1_Boundary",
+    "commands": [{
+      "id": "3f73e49c-7834-44b8-ac2b-1e6f65955040",
+      "comment": "",
+      "command": "open",
+      "target": "https://school.moodledemo.net/mod/assign/view.php?id=775",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f6d09bfe-85a6-4fc9-9d0c-ec46e36e26c8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=View all submissions",
+      "targets": [
+        ["linkText=View all submissions", "linkText"],
+        ["css=.btn-secondary:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'View all submissions')]", "xpath:link"],
+        ["xpath=//section[@id='region-main']/div[2]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://school.moodledemo.net/mod/assign/view.php?id=775&action=grading')]", "xpath:href"],
+        ["xpath=//section/div[2]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'View all submissions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "699aee27-b73c-4a10-9da0-22f2386e7b6a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Grade",
+      "targets": [
+        ["linkText=Grade", "linkText"],
+        ["css=#mod_assign_grading-1294_r0_c5 > .btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Grade')])[3]", "xpath:link"],
+        ["xpath=//td[@id='mod_assign_grading-1294_r0_c5']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://school.moodledemo.net/mod/assign/view.php?id=775&rownum=0&action=grader&userid=7')]", "xpath:href"],
+        ["xpath=//td[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e833c12-e27c-4f91-b121-752320f30bd3",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//section/div[2]/div[3]",
+      "targets": [
+        ["id=yui_3_18_1_1_1701737711702_698", "id"],
+        ["css=#yui_3_18_1_1_1701737711702_698", "css:finder"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701737711702_698']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701737711702_699']/div[3]", "xpath:idRelative"],
+        ["xpath=//section/div[2]/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87c16572-9060-479d-b55a-4f402b6410ca",
+      "comment": "",
+      "command": "type",
+      "target": "id=id_grade",
+      "targets": [
+        ["id=id_grade", "id"],
+        ["name=grade", "name"],
+        ["css=#id_grade", "css:finder"],
+        ["xpath=//input[@id='id_grade']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701737711702_695']/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": "0"
+    }, {
+      "id": "21be01c6-3c11-4d13-a8e7-a27d0fb92bcf",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Save changes')]",
+      "targets": [
+        ["id=yui_3_18_1_1_1701737711702_712", "id"],
+        ["name=savechanges", "name"],
+        ["css=#yui_3_18_1_1_1701737711702_712", "css:finder"],
+        ["xpath=//button[@id='yui_3_18_1_1_1701737711702_712']", "xpath:attributes"],
+        ["xpath=//form[@id='yui_3_18_1_1_1701737711702_713']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save changes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "85c2927b-37ac-4e76-a382-1c3503b3d5f7",
+    "name": "Test2_Boundary",
+    "commands": [{
+      "id": "32f72a92-79a3-43a4-98d1-bb34a2130678",
+      "comment": "",
+      "command": "open",
+      "target": "https://school.moodledemo.net/mod/assign/view.php?id=775",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "86e7dc3a-8a89-4483-846a-89b6e2e31c79",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=View all submissions",
+      "targets": [
+        ["linkText=View all submissions", "linkText"],
+        ["css=.btn-secondary:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'View all submissions')]", "xpath:link"],
+        ["xpath=//section[@id='region-main']/div[2]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://school.moodledemo.net/mod/assign/view.php?id=775&action=grading')]", "xpath:href"],
+        ["xpath=//section/div[2]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'View all submissions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c4eb320-16f6-4986-a400-618103de95d0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Grade",
+      "targets": [
+        ["linkText=Grade", "linkText"],
+        ["css=#mod_assign_grading-1294_r0_c5 > .btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Grade')])[3]", "xpath:link"],
+        ["xpath=//td[@id='mod_assign_grading-1294_r0_c5']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://school.moodledemo.net/mod/assign/view.php?id=775&rownum=0&action=grader&userid=7')]", "xpath:href"],
+        ["xpath=//td[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "758c7473-b6d8-4b83-9a60-3e3cd4759fb2",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//section/div[2]/div[3]",
+      "targets": [
+        ["id=yui_3_18_1_1_1701737711702_698", "id"],
+        ["css=#yui_3_18_1_1_1701737711702_698", "css:finder"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701737711702_698']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701737711702_699']/div[3]", "xpath:idRelative"],
+        ["xpath=//section/div[2]/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6a2fdf2-3f3f-4058-9c3b-5ab1ac3eca31",
+      "comment": "",
+      "command": "type",
+      "target": "id=id_grade",
+      "targets": [
+        ["id=id_grade", "id"],
+        ["name=grade", "name"],
+        ["css=#id_grade", "css:finder"],
+        ["xpath=//input[@id='id_grade']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701737711702_695']/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "50e33d40-eec6-492f-928a-806bbc93c12f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Save changes')]",
+      "targets": [
+        ["id=yui_3_18_1_1_1701737711702_712", "id"],
+        ["name=savechanges", "name"],
+        ["css=#yui_3_18_1_1_1701737711702_712", "css:finder"],
+        ["xpath=//button[@id='yui_3_18_1_1_1701737711702_712']", "xpath:attributes"],
+        ["xpath=//form[@id='yui_3_18_1_1_1701737711702_713']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save changes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "64667ecd-0ee3-4d3a-8041-72924a027035",
+    "name": "Test3_Boundary",
+    "commands": [{
+      "id": "49272a6a-53d9-4f38-83b9-e25b6e743b31",
+      "comment": "",
+      "command": "open",
+      "target": "https://school.moodledemo.net/mod/assign/view.php?id=775",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f942935-5744-4488-844e-0bb0a1f90833",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=View all submissions",
+      "targets": [
+        ["linkText=View all submissions", "linkText"],
+        ["css=.btn-secondary:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'View all submissions')]", "xpath:link"],
+        ["xpath=//section[@id='region-main']/div[2]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://school.moodledemo.net/mod/assign/view.php?id=775&action=grading')]", "xpath:href"],
+        ["xpath=//section/div[2]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'View all submissions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7edacd45-6717-4c65-bfaa-a0574c18b832",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Grade",
+      "targets": [
+        ["linkText=Grade", "linkText"],
+        ["css=#mod_assign_grading-1294_r0_c5 > .btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Grade')])[3]", "xpath:link"],
+        ["xpath=//td[@id='mod_assign_grading-1294_r0_c5']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://school.moodledemo.net/mod/assign/view.php?id=775&rownum=0&action=grader&userid=7')]", "xpath:href"],
+        ["xpath=//td[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fdb6f05c-876e-41b4-9bd2-29c299ecca29",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_grade",
+      "targets": [
+        ["id=id_grade", "id"],
+        ["name=grade", "name"],
+        ["css=#id_grade", "css:finder"],
+        ["xpath=//input[@id='id_grade']", "xpath:attributes"],
+        ["xpath=//div[@id='fitem_id_grade']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "144ff065-6b5a-4a7a-96da-6f6e4c1b1bb6",
+      "comment": "",
+      "command": "type",
+      "target": "id=id_grade",
+      "targets": [
+        ["id=id_grade", "id"],
+        ["name=grade", "name"],
+        ["css=#id_grade", "css:finder"],
+        ["xpath=//input[@id='id_grade']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701738142731_129']/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": "-1"
+    }, {
+      "id": "75837a71-32d7-4a95-b43f-6ed1a12624c9",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Save changes')]",
+      "targets": [
+        ["id=yui_3_18_1_1_1701738142731_704", "id"],
+        ["name=savechanges", "name"],
+        ["css=#yui_3_18_1_1_1701738142731_704", "css:finder"],
+        ["xpath=//button[@id='yui_3_18_1_1_1701738142731_704']", "xpath:attributes"],
+        ["xpath=//form[@id='yui_3_18_1_1_1701738142731_705']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save changes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b87bb63a-f72d-41a6-8fa1-0354f9abe182",
+    "name": "Test4_Boundary",
+    "commands": [{
+      "id": "f4fdf1c3-9910-4853-ae10-0b23b065b701",
+      "comment": "",
+      "command": "open",
+      "target": "https://school.moodledemo.net/mod/assign/view.php?id=775",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad34eb44-82b0-496b-9782-ae527c6b1a4e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=View all submissions",
+      "targets": [
+        ["linkText=View all submissions", "linkText"],
+        ["css=.btn-secondary:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'View all submissions')]", "xpath:link"],
+        ["xpath=//section[@id='region-main']/div[2]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://school.moodledemo.net/mod/assign/view.php?id=775&action=grading')]", "xpath:href"],
+        ["xpath=//section/div[2]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'View all submissions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec8f8b57-d023-418b-976b-b84e2cf53c94",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Grade",
+      "targets": [
+        ["linkText=Grade", "linkText"],
+        ["css=#mod_assign_grading-1294_r0_c5 > .btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Grade')])[3]", "xpath:link"],
+        ["xpath=//td[@id='mod_assign_grading-1294_r0_c5']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://school.moodledemo.net/mod/assign/view.php?id=775&rownum=0&action=grader&userid=7')]", "xpath:href"],
+        ["xpath=//td[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32c2e4b7-1040-4c16-af37-da19da8de4e5",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_grade",
+      "targets": [
+        ["id=id_grade", "id"],
+        ["name=grade", "name"],
+        ["css=#id_grade", "css:finder"],
+        ["xpath=//input[@id='id_grade']", "xpath:attributes"],
+        ["xpath=//div[@id='fitem_id_grade']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a136af1e-1e6f-4cff-a38a-c9837a160f93",
+      "comment": "",
+      "command": "type",
+      "target": "id=id_grade",
+      "targets": [
+        ["id=id_grade", "id"],
+        ["name=grade", "name"],
+        ["css=#id_grade", "css:finder"],
+        ["xpath=//input[@id='id_grade']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701738142731_129']/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": "100"
+    }, {
+      "id": "a461d0e7-a86f-4dce-abb2-fe6e232fba79",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Save changes')]",
+      "targets": [
+        ["id=yui_3_18_1_1_1701738142731_704", "id"],
+        ["name=savechanges", "name"],
+        ["css=#yui_3_18_1_1_1701738142731_704", "css:finder"],
+        ["xpath=//button[@id='yui_3_18_1_1_1701738142731_704']", "xpath:attributes"],
+        ["xpath=//form[@id='yui_3_18_1_1_1701738142731_705']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save changes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "22609f2e-d58b-433d-bc88-ed1016aa02d4",
+    "name": "Test5_Boundary",
+    "commands": [{
+      "id": "feca44f4-6b3b-4693-843b-a14087add1bc",
+      "comment": "",
+      "command": "open",
+      "target": "https://school.moodledemo.net/mod/assign/view.php?id=775",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ecb43345-c270-4b46-9a95-7b36cb4b4bbc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=View all submissions",
+      "targets": [
+        ["linkText=View all submissions", "linkText"],
+        ["css=.btn-secondary:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'View all submissions')]", "xpath:link"],
+        ["xpath=//section[@id='region-main']/div[2]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://school.moodledemo.net/mod/assign/view.php?id=775&action=grading')]", "xpath:href"],
+        ["xpath=//section/div[2]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'View all submissions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd3fdb27-cf26-457b-9b81-0ea441fbc15e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Grade",
+      "targets": [
+        ["linkText=Grade", "linkText"],
+        ["css=#mod_assign_grading-1294_r0_c5 > .btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Grade')])[3]", "xpath:link"],
+        ["xpath=//td[@id='mod_assign_grading-1294_r0_c5']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://school.moodledemo.net/mod/assign/view.php?id=775&rownum=0&action=grader&userid=7')]", "xpath:href"],
+        ["xpath=//td[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4dd0db4-e535-4d21-b1b4-84b185959d06",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_grade",
+      "targets": [
+        ["id=id_grade", "id"],
+        ["name=grade", "name"],
+        ["css=#id_grade", "css:finder"],
+        ["xpath=//input[@id='id_grade']", "xpath:attributes"],
+        ["xpath=//div[@id='fitem_id_grade']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91ff318b-e447-4641-8157-d15135986bd9",
+      "comment": "",
+      "command": "type",
+      "target": "id=id_grade",
+      "targets": [
+        ["id=id_grade", "id"],
+        ["name=grade", "name"],
+        ["css=#id_grade", "css:finder"],
+        ["xpath=//input[@id='id_grade']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701738142731_129']/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": "99"
+    }, {
+      "id": "d71fdf70-a978-4a6b-ac5d-a472038c3b5d",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Save changes')]",
+      "targets": [
+        ["id=yui_3_18_1_1_1701738142731_704", "id"],
+        ["name=savechanges", "name"],
+        ["css=#yui_3_18_1_1_1701738142731_704", "css:finder"],
+        ["xpath=//button[@id='yui_3_18_1_1_1701738142731_704']", "xpath:attributes"],
+        ["xpath=//form[@id='yui_3_18_1_1_1701738142731_705']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save changes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1db64a83-b8e0-4dc1-83a7-38e590b8db59",
+    "name": "Test6_Boundary",
+    "commands": [{
+      "id": "b72d5617-7869-4684-be17-1112177761e6",
+      "comment": "",
+      "command": "open",
+      "target": "https://school.moodledemo.net/mod/assign/view.php?id=775",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d6fb7dc6-f731-4aa2-909a-bbed45160ac1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=View all submissions",
+      "targets": [
+        ["linkText=View all submissions", "linkText"],
+        ["css=.btn-secondary:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'View all submissions')]", "xpath:link"],
+        ["xpath=//section[@id='region-main']/div[2]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://school.moodledemo.net/mod/assign/view.php?id=775&action=grading')]", "xpath:href"],
+        ["xpath=//section/div[2]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'View all submissions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0c00bf9-3d62-4b1b-9925-e00e2ce8b199",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Grade",
+      "targets": [
+        ["linkText=Grade", "linkText"],
+        ["css=#mod_assign_grading-1294_r0_c5 > .btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Grade')])[3]", "xpath:link"],
+        ["xpath=//td[@id='mod_assign_grading-1294_r0_c5']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://school.moodledemo.net/mod/assign/view.php?id=775&rownum=0&action=grader&userid=7')]", "xpath:href"],
+        ["xpath=//td[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "165644f2-8965-490c-99d4-2bf5084c09a3",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_grade",
+      "targets": [
+        ["id=id_grade", "id"],
+        ["name=grade", "name"],
+        ["css=#id_grade", "css:finder"],
+        ["xpath=//input[@id='id_grade']", "xpath:attributes"],
+        ["xpath=//div[@id='fitem_id_grade']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9190e7a2-81d7-47ad-8472-26be7d274d56",
+      "comment": "",
+      "command": "type",
+      "target": "id=id_grade",
+      "targets": [
+        ["id=id_grade", "id"],
+        ["name=grade", "name"],
+        ["css=#id_grade", "css:finder"],
+        ["xpath=//input[@id='id_grade']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701738142731_129']/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": "101"
+    }, {
+      "id": "dd002a92-b1ac-4f15-9af1-448a61e03384",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Save changes')]",
+      "targets": [
+        ["id=yui_3_18_1_1_1701738142731_704", "id"],
+        ["name=savechanges", "name"],
+        ["css=#yui_3_18_1_1_1701738142731_704", "css:finder"],
+        ["xpath=//button[@id='yui_3_18_1_1_1701738142731_704']", "xpath:attributes"],
+        ["xpath=//form[@id='yui_3_18_1_1_1701738142731_705']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save changes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8279b0cf-1808-4502-b0ef-2d907a57cdd2",
+    "name": "Test7_Boundary",
+    "commands": [{
+      "id": "5b15c3db-20b2-4180-837e-6543070fba47",
+      "comment": "",
+      "command": "open",
+      "target": "https://school.moodledemo.net/mod/assign/view.php?id=775",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd197cd2-bb32-41f1-8466-adcbfd72a36c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=View all submissions",
+      "targets": [
+        ["linkText=View all submissions", "linkText"],
+        ["css=.btn-secondary:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'View all submissions')]", "xpath:link"],
+        ["xpath=//section[@id='region-main']/div[2]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://school.moodledemo.net/mod/assign/view.php?id=775&action=grading')]", "xpath:href"],
+        ["xpath=//section/div[2]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'View all submissions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "56c56ed2-deaa-4d4a-89f5-18b7829a5950",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Grade",
+      "targets": [
+        ["linkText=Grade", "linkText"],
+        ["css=#mod_assign_grading-1294_r0_c5 > .btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Grade')])[3]", "xpath:link"],
+        ["xpath=//td[@id='mod_assign_grading-1294_r0_c5']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://school.moodledemo.net/mod/assign/view.php?id=775&rownum=0&action=grader&userid=7')]", "xpath:href"],
+        ["xpath=//td[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "254db644-c28b-4e20-bb40-abd7806c02fc",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_grade",
+      "targets": [
+        ["id=id_grade", "id"],
+        ["name=grade", "name"],
+        ["css=#id_grade", "css:finder"],
+        ["xpath=//input[@id='id_grade']", "xpath:attributes"],
+        ["xpath=//div[@id='fitem_id_grade']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37cbd81f-34fa-4aee-8a3d-1b4a1c594717",
+      "comment": "",
+      "command": "type",
+      "target": "id=id_grade",
+      "targets": [
+        ["id=id_grade", "id"],
+        ["name=grade", "name"],
+        ["css=#id_grade", "css:finder"],
+        ["xpath=//input[@id='id_grade']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1701738142731_129']/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": "50"
+    }, {
+      "id": "d290d244-7095-49a4-bf43-96f02453400e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Save changes')]",
+      "targets": [
+        ["id=yui_3_18_1_1_1701738142731_704", "id"],
+        ["name=savechanges", "name"],
+        ["css=#yui_3_18_1_1_1701738142731_704", "css:finder"],
+        ["xpath=//button[@id='yui_3_18_1_1_1701738142731_704']", "xpath:attributes"],
+        ["xpath=//form[@id='yui_3_18_1_1_1701738142731_705']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save changes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2cc9efe9-cd7a-4628-882f-a923a8ddf31f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://school.moodledemo.net/", "https://school.moodledemo.net/mod/assign/view.php?id=775"],
+  "plugins": []
+}

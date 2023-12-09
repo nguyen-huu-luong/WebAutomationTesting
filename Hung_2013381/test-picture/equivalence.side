@@ -4,6 +4,10 @@
   "name": "moodle-test",
   "url": "https://school.moodledemo.net/",
   "tests": [{
+    "id": "22fd974c-7137-49f6-bd78-71d849cd22f5",
+    "name": "Untitled",
+    "commands": []
+  }, {
     "id": "a5af7b12-27ec-4d2c-b20e-e5cb36cad341",
     "name": "case#1",
     "commands": [{
@@ -35,34 +39,6 @@
         ["xpath=//a[contains(.,'Log in')]", "xpath:innerText"]
       ],
       "value": ""
-    }, {
-      "id": "31fefcb4-6ba2-457e-a260-9f50e1efa90a",
-      "comment": "",
-      "command": "click",
-      "target": "id=username",
-      "targets": [
-        ["id=username", "id"],
-        ["name=username", "name"],
-        ["css=#username", "css:finder"],
-        ["xpath=//input[@id='username']", "xpath:attributes"],
-        ["xpath=//form[@id='login']/div/input", "xpath:idRelative"],
-        ["xpath=//div/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "d55f654f-fffd-4330-b2d9-ce55b43ee564",
-      "comment": "",
-      "command": "type",
-      "target": "id=username",
-      "targets": [
-        ["id=username", "id"],
-        ["name=username", "name"],
-        ["css=#username", "css:finder"],
-        ["xpath=//input[@id='username']", "xpath:attributes"],
-        ["xpath=//div[@id='yui_3_18_1_1_1701787299949_28']/input", "xpath:idRelative"],
-        ["xpath=//div/input", "xpath:position"]
-      ],
-      "value": "teacher"
     }, {
       "id": "ef0c0eaa-3f6f-4dfb-b6b1-5226f3b621e6",
       "comment": "",
@@ -184,7 +160,7 @@
         ["xpath=//div[@id='yui_3_18_1_1_1701444992205_742']/input", "xpath:idRelative"],
         ["xpath=//form/div/div/div/input", "xpath:position"]
       ],
-      "value": "D:\\github\\WebAutomationTesting\\Hung_2013381\\case\\2kb.png"
+      "value": "D:\\github\\WebAutomationTesting\\Hung_2013381\\img\\case#12mb.jpg"
     }, {
       "id": "9ffdd425-152b-4531-b82f-d8b9236f8e45",
       "comment": "",
@@ -280,34 +256,6 @@
         ["xpath=//a[contains(.,'Log in')]", "xpath:innerText"]
       ],
       "value": ""
-    }, {
-      "id": "ba779ec7-9eb8-4d29-bb34-bcb3f1a3aa88",
-      "comment": "",
-      "command": "click",
-      "target": "id=username",
-      "targets": [
-        ["id=username", "id"],
-        ["name=username", "name"],
-        ["css=#username", "css:finder"],
-        ["xpath=//input[@id='username']", "xpath:attributes"],
-        ["xpath=//form[@id='login']/div/input", "xpath:idRelative"],
-        ["xpath=//div/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "b17fcfc2-1387-4472-b8bc-c06db0458500",
-      "comment": "",
-      "command": "type",
-      "target": "id=username",
-      "targets": [
-        ["id=username", "id"],
-        ["name=username", "name"],
-        ["css=#username", "css:finder"],
-        ["xpath=//input[@id='username']", "xpath:attributes"],
-        ["xpath=//div[@id='yui_3_18_1_1_1701787299949_28']/input", "xpath:idRelative"],
-        ["xpath=//div/input", "xpath:position"]
-      ],
-      "value": "teacher"
     }, {
       "id": "9b9d4b04-f2eb-4345-be3f-70db9f5547e8",
       "comment": "",
@@ -429,7 +377,7 @@
         ["xpath=//div[@id='yui_3_18_1_1_1701444992205_742']/input", "xpath:idRelative"],
         ["xpath=//form/div/div/div/input", "xpath:position"]
       ],
-      "value": "D:\\github\\WebAutomationTesting\\Hung_2013381\\img\\case#2kb.jpg"
+      "value": "D:\\github\\WebAutomationTesting\\Hung_2013381\\case\\256mb.png"
     }, {
       "id": "08c7f654-4b4d-4d0e-89ba-ebc99926a9c5",
       "comment": "",
@@ -525,34 +473,6 @@
         ["xpath=//a[contains(.,'Log in')]", "xpath:innerText"]
       ],
       "value": ""
-    }, {
-      "id": "f2bf9207-eace-46e7-90b1-253f57d38dcb",
-      "comment": "",
-      "command": "click",
-      "target": "id=username",
-      "targets": [
-        ["id=username", "id"],
-        ["name=username", "name"],
-        ["css=#username", "css:finder"],
-        ["xpath=//input[@id='username']", "xpath:attributes"],
-        ["xpath=//form[@id='login']/div/input", "xpath:idRelative"],
-        ["xpath=//div/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "d042b9c5-ea37-464a-bb8d-0f97c5fe4fee",
-      "comment": "",
-      "command": "type",
-      "target": "id=username",
-      "targets": [
-        ["id=username", "id"],
-        ["name=username", "name"],
-        ["css=#username", "css:finder"],
-        ["xpath=//input[@id='username']", "xpath:attributes"],
-        ["xpath=//div[@id='yui_3_18_1_1_1701787299949_28']/input", "xpath:idRelative"],
-        ["xpath=//div/input", "xpath:position"]
-      ],
-      "value": "teacher"
     }, {
       "id": "2f6deb5f-8d58-42ee-846e-0192457c42ad",
       "comment": "",
@@ -674,7 +594,7 @@
         ["xpath=//div[@id='yui_3_18_1_1_1701444992205_742']/input", "xpath:idRelative"],
         ["xpath=//form/div/div/div/input", "xpath:position"]
       ],
-      "value": "D:\\github\\WebAutomationTesting\\Hung_2013381\\case\\256mb.png"
+      "value": "D:\\github\\WebAutomationTesting\\Hung_2013381\\case\\156mb.pdf"
     }, {
       "id": "00462132-eb0e-4559-a54b-be7a8962c612",
       "comment": "",
@@ -770,34 +690,6 @@
         ["xpath=//a[contains(.,'Log in')]", "xpath:innerText"]
       ],
       "value": ""
-    }, {
-      "id": "f2c44cea-c84c-453a-af4e-cae5336f30d5",
-      "comment": "",
-      "command": "click",
-      "target": "id=username",
-      "targets": [
-        ["id=username", "id"],
-        ["name=username", "name"],
-        ["css=#username", "css:finder"],
-        ["xpath=//input[@id='username']", "xpath:attributes"],
-        ["xpath=//form[@id='login']/div/input", "xpath:idRelative"],
-        ["xpath=//div/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "644416c7-a9ca-4eb7-9fdf-c83bea365b60",
-      "comment": "",
-      "command": "type",
-      "target": "id=username",
-      "targets": [
-        ["id=username", "id"],
-        ["name=username", "name"],
-        ["css=#username", "css:finder"],
-        ["xpath=//input[@id='username']", "xpath:attributes"],
-        ["xpath=//div[@id='yui_3_18_1_1_1701787299949_28']/input", "xpath:idRelative"],
-        ["xpath=//div/input", "xpath:position"]
-      ],
-      "value": "teacher"
     }, {
       "id": "a2052815-734a-42fa-87e6-48fe53773120",
       "comment": "",
@@ -919,7 +811,7 @@
         ["xpath=//div[@id='yui_3_18_1_1_1701444992205_742']/input", "xpath:idRelative"],
         ["xpath=//form/div/div/div/input", "xpath:position"]
       ],
-      "value": "D:\\github\\WebAutomationTesting\\Hung_2013381\\case\\128mb.png"
+      "value": "D:\\github\\WebAutomationTesting\\Hung_2013381\\case\\300mb.mp4"
     }, {
       "id": "c33c64b5-d396-476a-9f38-84ff876a7395",
       "comment": "",
@@ -1015,34 +907,6 @@
         ["xpath=//a[contains(.,'Log in')]", "xpath:innerText"]
       ],
       "value": ""
-    }, {
-      "id": "413a5a87-c6b7-49ab-a29d-1b454ac34783",
-      "comment": "",
-      "command": "click",
-      "target": "id=username",
-      "targets": [
-        ["id=username", "id"],
-        ["name=username", "name"],
-        ["css=#username", "css:finder"],
-        ["xpath=//input[@id='username']", "xpath:attributes"],
-        ["xpath=//form[@id='login']/div/input", "xpath:idRelative"],
-        ["xpath=//div/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "b988c275-c6e4-4508-a36c-856469393f7a",
-      "comment": "",
-      "command": "type",
-      "target": "id=username",
-      "targets": [
-        ["id=username", "id"],
-        ["name=username", "name"],
-        ["css=#username", "css:finder"],
-        ["xpath=//input[@id='username']", "xpath:attributes"],
-        ["xpath=//div[@id='yui_3_18_1_1_1701787299949_28']/input", "xpath:idRelative"],
-        ["xpath=//div/input", "xpath:position"]
-      ],
-      "value": "teacher"
     }, {
       "id": "e44eb416-1442-44ab-a8b9-4099ce8f0cad",
       "comment": "",
@@ -1164,7 +1028,7 @@
         ["xpath=//div[@id='yui_3_18_1_1_1701444992205_742']/input", "xpath:idRelative"],
         ["xpath=//form/div/div/div/input", "xpath:position"]
       ],
-      "value": "D:\\github\\WebAutomationTesting\\Hung_2013381\\case\\125mb.png"
+      "value": "D:\\github\\WebAutomationTesting\\Hung_2013381\\case\\300mb_jpg.jpg"
     }, {
       "id": "9b0e63a5-abca-403d-850d-8670ec176baa",
       "comment": "",
@@ -1235,7 +1099,7 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": []
+    "tests": ["22fd974c-7137-49f6-bd78-71d849cd22f5"]
   }],
   "urls": ["https://school.moodledemo.net/"],
   "plugins": []
